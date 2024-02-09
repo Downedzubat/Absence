@@ -5,11 +5,15 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/MascotHorror/Game/MascotHorror/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"D:/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset",
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset"
+				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset",
+				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/Blueprints/BP_Camera.uasset",
+				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/Blueprints/BP_CameraComponent.uasset",
+				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset",
+				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/NP/C19N8XXFK4K4Z84SYYG5TM.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset"
 			]
 		}
 	]
