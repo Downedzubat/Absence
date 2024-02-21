@@ -5,6 +5,26 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/MascotHorror/Game/MascotHorror/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Blueprints/WalkBob.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/Cam.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/Cam_Skel.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Blueprints/BP_Camera.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/Cam_Skel_Cam_Skeleton.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Blueprints/Camcorder.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Blueprints/Camcorder_Mat.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/NP/C19N8XXFK4K4Z84SYYG5TM.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/Q9/7W36IZRHKX2LQF8JTJ3W9S.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/GF/3JHLU1CDM4AKUXI3NCMLI1.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/WD/14KPH78YTWMSWK8N9DQNTQ.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/BX/74I31BOQSG994WRJAJIP0A.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/Cam_Skel_UCX_Cam_PhysicsAsset.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/CameraMat.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/Cam_standardSurface1_BaseColor.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/Cam_Skel_Cam_PhysicsAsset.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Camera/Cam_Skel_UCX_Cam_Skeleton.uasset",
+				"D:/MascotHorror/Game/MascotHorror/Content/Blueprints/m_Screen.uasset",
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset",
@@ -18,9 +38,7 @@
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/Camera/Cam_Textures/Cam_standardSurface1_OcclusionRoughnessMetallic.uasset",
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/Camera/Cam_Textures/CameraMat.uasset",
 				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/Camera/standardSurface1.uasset",
-				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset",
-				"D:/MascotHorror/Game/MascotHorror/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"D:/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset"
+				"C:/Users/ML287102/MascotHorror/Game/MascotHorror/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset"
 			]
 		}
 	]
