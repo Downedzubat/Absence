@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/University Projects/MascotHorror/Game/MascotHorror/Content/LevelPrototyping/Level_Maps/Main_Area.umap",
+				"D:/University Projects/MascotHorror/Game/MascotHorror/Content/LevelPrototyping/Level_Maps/_GENERATED/oweng/Stairs_79D79A14.uasset",
 				"D:/MascotHorror/Game/MascotHorror/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"D:/MascotHorror/Game/MascotHorror/Content/ProgrammerUI/InGameUI.uasset",
 				"D:/MascotHorror/Game/MascotHorror/Content/Blueprints/WalkBob.uasset",
