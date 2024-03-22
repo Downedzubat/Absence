@@ -3262,3 +3262,144 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.22-01.05.18:280][262]LogHttp: Warning: 00000AE87E57B400: libcurl info message cache 7 (Closing connection 17)
 [2024.03.22-01.05.18:280][262]LogHttp: Warning: 00000AE87E57B400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2024.03.22-01.05.18:280][262]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-01.08.23:803][831]Cmd: TRANSACTION UNDO
+[2024.03.22-01.08.23:803][831]LogEditorTransaction: Undo Group Selected
+[2024.03.22-01.08.23:890][832]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/Main_Area.Main_Area:PersistentLevel.RecastNavMesh-Default).
+[2024.03.22-01.08.43:381][785]LogViewport: Scene viewport resized to 1045x580, mode Windowed.
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: ================================================
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Total job queries 238, among them cache hits 63 (26.47%)
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Tracking 175 distinct input hashes that result in 121 distinct outputs (69.14%)
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: RAM used: 1.39 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Shaders Compiled: 32
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Jobs assigned 32, completed 32 (100.00%)
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Average time worker was idle: 11.70 s
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Time job spent in pending queue: average 0.82 s, longest 1.87 s
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Job execution time: average 1.40 s, max 1.83 s
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Job life time (pending + execution): average 2.23 s, max 3.00
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.95 s
+[2024.03.22-01.08.45:817][ 48]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: Average processing rate: 5.38 jobs/sec
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: Total thread time: 36.47 s
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: Total thread preprocess time: 2.13 s
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: Percentage time preprocessing: 5.83%
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: Effective parallelization: 6.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.39 sec, max 1.43 sec, min 1.35 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 1.34 sec, max 1.37 sec, min 1.30 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 1.31 sec, max 1.35 sec, min 1.28 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.28 sec, max 1.32 sec, min 1.24 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 1.25 sec, max 1.26 sec, min 1.24 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.63% of total time (compiled    2 times, average 1.39 sec, max 1.43 sec, min 1.35 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.34% of total time (compiled    2 times, average 1.34 sec, max 1.37 sec, min 1.30 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 7.21% of total time (compiled    2 times, average 1.31 sec, max 1.35 sec, min 1.28 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.01% of total time (compiled    2 times, average 1.28 sec, max 1.32 sec, min 1.24 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 6.86% of total time (compiled    2 times, average 1.25 sec, max 1.26 sec, min 1.24 sec)
+[2024.03.22-01.08.45:819][ 48]LogShaderCompilers: Display: ================================================
+[2024.03.22-01.10.24:555][457]Cmd: TRANSACTION UNDO
+[2024.03.22-01.10.24:555][457]LogEditorTransaction: Undo Block Tool Change
+[2024.03.22-01.11.16:294][948]Cmd: MODE GRID=0
+[2024.03.22-01.11.17:940][117]Cmd: MODE GRID=1
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 0 (Found bundle for host: 0xae8449609f0 [serially])
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 1 (Re-using existing connection #18 with host datarouter.ol.epicgames.com)
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.195.73.186) port 443 (#18))
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 7 (Closing connection 18)
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: 00000AE88A8EDC00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-01.11.18:291][151]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-01.11.33:828][696]Cmd: TRANSACTION UNDO
+[2024.03.22-01.11.33:828][696]LogEditorTransaction: Undo Block Tool Change
+[2024.03.22-01.12.52:187][848]Cmd: TRANSACTION UNDO
+[2024.03.22-01.12.52:187][848]LogEditorTransaction: Undo Block Tool Change
+[2024.03.22-01.13.18:255][476]Cmd: TRANSACTION UNDO
+[2024.03.22-01.13.18:255][476]LogEditorTransaction: Undo Block Tool Change
+[2024.03.22-01.13.48:080][402]Cmd: TRANSACTION UNDO
+[2024.03.22-01.13.48:080][402]LogEditorTransaction: Undo Block Tool Change
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 0 (Found bundle for host: 0xae844960bd0 [serially])
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 1 (Re-using existing connection #19 with host datarouter.ol.epicgames.com)
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.205.228.249) port 443 (#19))
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 7 (Closing connection 19)
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: 00000AE88D932800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-01.14.18:290][505]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-01.15.01:571][901]Cmd: TRANSACTION UNDO
+[2024.03.22-01.15.01:572][901]LogEditorTransaction: Undo Block Tool Change
+[2024.03.22-01.15.11:131][727]LogSlate: Window 'Accept changes instead?' being destroyed
+[2024.03.22-01.15.11:134][727]Message dialog closed, result: Yes, title: Accept changes instead?, text: The tool is being cancelled, which normally discards all changes. Would you like to apply the changes instead?
+
+ Selecting "No" or closing this window will discard the tool's current work.
+[2024.03.22-01.15.12:850][922]Cmd: TRANSACTION UNDO
+[2024.03.22-01.15.12:850][922]LogEditorTransaction: Undo Cube Grid Edit
+[2024.03.22-01.15.12:916][923]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/Main_Area.Main_Area:PersistentLevel.RecastNavMesh-Default).
+[2024.03.22-01.15.13:513][956]Cmd: TRANSACTION UNDO
+[2024.03.22-01.15.13:513][956]LogEditorTransaction: Undo Cube Grid Edit
+[2024.03.22-01.15.13:564][957]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/Main_Area.Main_Area:PersistentLevel.RecastNavMesh-Default).
+[2024.03.22-01.15.18:871][466]Cmd: TRANSACTION REDO
+[2024.03.22-01.15.18:871][466]LogEditorTransaction: Redo Cube Grid Edit
+[2024.03.22-01.15.18:938][467]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/Main_Area.Main_Area:PersistentLevel.RecastNavMesh-Default).
+[2024.03.22-01.15.25:629][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.03.22-01.15.26:446][143]LogSlate: Window 'Save Content' being destroyed
+[2024.03.22-01.15.26:451][143]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.22-01.15.26:474][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Area" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/Maps/Main_Area.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.22-01.15.26:480][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.03.22-01.15.26:539][143]LogSavePackage: Moving output files for package: /Game/Maps/Main_Area
+[2024.03.22-01.15.26:539][143]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/Main_Area8FD02002405367C3B2A5B597DCC88FCB.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/Maps/Main_Area.umap'
+[2024.03.22-01.15.26:564][143]LogFileHelpers: Saving map 'Main_Area' took 0.090
+[2024.03.22-01.15.26:570][143]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 1.00 sec)
+[2024.03.22-01.15.26:573][143]AssetCheck: New page: Asset Save: Main_Area
+[2024.03.22-01.15.26:573][143]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main_Area.Main_Area
+[2024.03.22-01.17.18:296][149]LogHttp: Warning: 00000AE88C79F500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.22-01.17.18:296][149]LogHttp: Warning: 00000AE88C79F500: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-01.17.18:296][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 0 (Found bundle for host: 0xae844960f90 [serially])
+[2024.03.22-01.17.18:296][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 1 (Re-using existing connection #20 with host datarouter.ol.epicgames.com)
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.146.55.238) port 443 (#20))
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 7 (Closing connection 20)
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: 00000AE88C79F500: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-01.17.18:297][149]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-01.17.24:098][771]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/Main_Area.Main_Area:PersistentLevel.RecastNavMesh-Default).
+[2024.03.22-01.25.09:064][729]Cmd: DELETE
+[2024.03.22-01.25.09:064][729]Cmd: ACTOR DELETE
+[2024.03.22-01.25.09:069][729]LogEditorActor: Deleted Actor: DynamicMeshActor
+[2024.03.22-01.25.09:089][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.22-01.25.09:090][729]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.03.22-01.26.15:394][112]Cmd: TRANSACTION UNDO
+[2024.03.22-01.26.15:394][112]LogEditorTransaction: Undo Cube Grid Selection Change
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 0 (Found bundle for host: 0xae844960c60 [serially])
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 1 (Re-using existing connection #22 with host datarouter.ol.epicgames.com)
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.203.21.186) port 443 (#22))
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 7 (Closing connection 22)
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: 00000AE88DB28C00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-01.26.18:293][372]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5286553-4927-A2C6-CB85-B69C761D9EFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=293f6086419e57d2cb6ec3bfe7e633d4%7Ce98c3b313efb49a5a1ef87f16e8f8492%7Cae6a8ec1-3697-4c4b-bb7f-ee66d33fced4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-01.28.32:247][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.22-01.28.33:966][874]LogSlate: Window 'Save Content' being destroyed
+[2024.03.22-01.28.33:972][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.22-01.28.34:003][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Area" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/Maps/Main_Area.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.22-01.28.34:009][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.22-01.28.34:070][874]LogSavePackage: Moving output files for package: /Game/Maps/Main_Area
+[2024.03.22-01.28.34:071][874]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/Main_AreaB2F2270440FC023A4EC25D88DA515934.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/Maps/Main_Area.umap'
+[2024.03.22-01.28.34:082][874]LogFileHelpers: Saving map 'Main_Area' took 0.080
+[2024.03.22-01.28.34:089][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 1.11 sec)
+[2024.03.22-01.28.34:093][874]AssetCheck: New page: Asset Save: Main_Area
+[2024.03.22-01.28.34:093][874]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main_Area.Main_Area
