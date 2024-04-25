@@ -1232,3 +1232,45 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.25-21.49.14:641][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms
 [2024.04.25-21.49.14:646][247]AssetCheck: New page: Asset Save: OptionsMenu
 [2024.04.25-21.49.14:646][247]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.25-21.49.43:242][774]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.25-21.49.43:243][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.25-21.49.43:255][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.25-21.49.43:820][774]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.49.43:820][774]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.52.49:192][480]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.52.49:193][480]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.52.50:511][606]LogSlate: Took 0.008308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.04.25-21.53.30:517][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.04.25-21.53.30:521][522]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UI/Menu_UI/Options_Menu' took 0.043
+[2024.04.25-21.53.30:522][522]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Menu_UI/OptionsMenu] ([2] browsable assets)...
+[2024.04.25-21.53.30:526][522]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu]
+[2024.04.25-21.53.30:526][522]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Menu_UI/OptionsMenu]
+[2024.04.25-21.53.30:604][522]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/Menu_UI/OptionsMenu_Auto2
+[2024.04.25-21.53.30:604][522]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsMenu_Auto283FB6DAD44CF1733571EDDA2F1C774B2.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/Autosaves/Game/UI/Menu_UI/OptionsMenu_Auto2.uasset'
+[2024.04.25-21.53.30:605][522]LogFileHelpers: Auto-saving content packages took 0.084
+[2024.04.25-21.54.47:826][454]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.54.47:826][454]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.57.12:982][348]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.57.12:982][348]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.58.17:621][678]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-21.58.17:621][678]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-22.01.03:185][140]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-22.01.03:185][140]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-22.03.02:236][619]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-22.03.02:236][619]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-22.03.06:178][951]BlueprintLog: New page: Compile OptionsMenu
+[2024.04.25-22.03.06:260][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.04.25-22.03.07:119][ 37]LogSlate: Window 'OptionsMenu' being destroyed
+[2024.04.25-22.03.07:146][ 37]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-22.03.07:146][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.03.07:156][ 37]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-22.03.07:156][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.03.08:730][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.04.25-22.03.10:000][204]LogSlate: Window 'Save Content' being destroyed
+[2024.04.25-22.03.10:007][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-22.03.10:036][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMenu.uasset" SILENT=true
+[2024.04.25-22.03.10:084][204]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsMenu
+[2024.04.25-22.03.10:085][204]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsMenu328B8D5440880C7F4625019B2B208E08.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMenu.uasset'
+[2024.04.25-22.03.10:092][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 170 ms)
+[2024.04.25-22.03.10:099][204]AssetCheck: New page: Asset Save: OptionsMenu
+[2024.04.25-22.03.10:099][204]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
