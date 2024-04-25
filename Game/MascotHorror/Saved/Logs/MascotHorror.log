@@ -2223,3 +2223,335 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.25-22.48.22:464][558]LogMaterial: Display: Incomplete cached shadermap for ShadedLevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
 [2024.04.25-22.48.23:770][558]LogMaterial: Warning: Incomplete material ShadedLevelColorationUnlitMateri, missing FMaterialShader (FTranslucentLightingInjectPS, 0).
 [2024.04.25-22.48.23:770][558]LogMaterial: Display: Incomplete cached shadermap for ShadedLevelColorationUnlitMateri in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
+[2024.04.25-22.48.27:041][558]LogMaterial: Warning: [AssetLog] D:\University Projects\MascotHorror\Game\MascotHorror\Content\Blueprints\Camcorder_Mat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Blueprints/Camcorder.Camcorder
+
+[2024.04.25-22.48.27:446][558]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.04.25-22.48.28:443][560]LogDerivedDataCache: Display: C:/Users/oweng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash b99cde22b1310204ddef2437f4cb47b5cc1dccef and existing hash ddf25366aa832bffc1efe305aa61b840a208efc4 for MaterialShaderMap/8dbdd6760673e3aad92c6589d83377514c4e7a86 from '/Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial [PCD3D_SM6, SM6, Num]'
+[2024.04.25-22.48.30:636][562]LogContentStreaming: Texture pool size now 1000 MB
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: ================================================
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Total job queries 6447, among them cache hits 80 (1.24%)
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Tracking 1960 distinct input hashes that result in 1096 distinct outputs (55.92%)
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: RAM used: 13.74 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 1.68%
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Shaders Compiled: 187
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Jobs assigned 195, completed 187 (95.90%)
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Time job spent in pending queue: average 7.35 s, longest 20.28 s
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Job execution time: average 5.74 s, max 13.32 s
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Job life time (pending + execution): average 12.55 s, max 20.28
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.30 s
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Jobs were issued in 123 batches (only local compilation was used), average 1.59 jobs/batch
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Average processing rate: 6.85 jobs/sec
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Total thread time: 181.73 s
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Total thread preprocess time: 10.19 s
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Percentage time preprocessing: 5.60%
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Effective parallelization: 6.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.25-22.48.46:723][487]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly (compiled    2 times, average 1.94 sec, max 2.10 sec, min 1.77 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:      TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly (compiled    1 times, average 1.73 sec, max 1.73 sec, min 1.73 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   11 times, average 1.27 sec, max 1.50 sec, min 0.99 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight (compiled    6 times, average 1.21 sec, max 1.61 sec, min 0.99 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:                                 FTranslucentLightingInjectPS - 8.55% of total time (compiled   16 times, average 0.97 sec, max 1.27 sec, min 0.61 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.85% of total time (compiled   13 times, average 1.10 sec, max 1.36 sec, min 0.99 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.77% of total time (compiled   14 times, average 1.01 sec, max 1.25 sec, min 0.92 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.69% of total time (compiled   11 times, average 1.27 sec, max 1.50 sec, min 0.99 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.50% of total time (compiled   11 times, average 1.07 sec, max 1.42 sec, min 0.82 sec)
+[2024.04.25-22.48.46:724][487]LogShaderCompilers: Display: ================================================
+[2024.04.25-22.49.18:397][365]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.25-22.49.18:415][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.25-22.49.18:415][365]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 00:49:18)
+[2024.04.25-22.49.18:415][365]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.25-22.49.18:417][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003168s)
+[2024.04.25-22.49.18:417][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.003222s)
+[2024.04.25-22.49.18:418][365]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.25-22.49.18:419][365]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.25-22.49.18:422][365]LogPlayLevel: PIE: World Init took: (0.003401s)
+[2024.04.25-22.49.18:559][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2024.04.25-22.49.18:564][365]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.25-22.49.18:564][365]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.25-22.49.18:564][365]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.25-22.49.18:564][365]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.25-22.49.18:564][365]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.25-22.49.18:564][365]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.25-22.49.18:564][365]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.25-22.49.18:564][365]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.25-22.49.18:564][365]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.25-22.49.18:565][365]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.25-22.49.18:565][365]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.25-22.49.18:565][365]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.25-22.49.18:568][365]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.25-22.49.18:604][365]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.25-22.49.18:605][365]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.25-22.49.18:605][365]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.25-22.49.18:605][365]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.25-22.49.18:607][365]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.25-22.49.18:607][365]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.25-22.49.18:610][365]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.25-22.49.18:610][365]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.25-22.49.18:610][365]LogInit: FAudioDevice initialized.
+[2024.04.25-22.49.18:610][365]LogAudio: Display: Audio Device (ID: 11) registered with world 'Main_Menu'.
+[2024.04.25-22.49.18:615][365]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.25-22.49.18:616][365]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.25-23.49.18
+[2024.04.25-22.49.18:616][365]LogWorld: Bringing up level for play took: 0.001126
+[2024.04.25-22.49.18:619][365]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.04.25-22.49.18:621][365]PIE: Server logged in
+[2024.04.25-22.49.18:622][365]PIE: Play in editor total start time 0.207 seconds.
+[2024.04.25-22.49.41:282][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-22.49.41:282][866]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.25-22.49.41:282][866]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-22.49.41:282][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.49.41:287][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.25-22.49.41:297][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.49.41:333][866]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.25-22.49.41:333][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.25-22.49.41:335][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.25-22.49.41:343][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-22.49.41:348][866]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2024.04.25-22.49.41:386][867]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.04.25-22.49.48:515][195]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [Scalability]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.SkeletalMeshLODBias:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.ViewDistanceScale:0.6]]
+[2024.04.25-22.49.48:515][195]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [Scalability]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.FXAA.Quality:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.TemporalAA.Quality:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.TSR.History.GrandReprojection:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.TSR.Velocity.Extrapolation:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2024.04.25-22.49.48:515][195]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@1] File [Scalability]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Applying CVar settings from Section [ReflectionQuality@1] File [Scalability]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [Scalability]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.MotionBlurQuality:3]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.DepthOfFieldQuality:1]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.RenderTargetPoolMin:350]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.LensFlareQuality:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.SceneColorFringeQuality:0]]
+[2024.04.25-22.49.48:515][195]LogConfig: Set CVar [[r.BloomQuality:4]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:35.355]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.FastBlurThreshold:2]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Upscale.Quality:2]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Tonemapper.GrainQuantization:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.LightShaftQuality:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Filter.SizeScale:0.7]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Tonemapper.Quality:2]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2024.04.25-22.49.48:516][195]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [Scalability]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Streaming.MipBias:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.MaxAnisotropy:2]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.VT.MaxAnisotropy:4]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.Streaming.PoolSize:600]]
+[2024.04.25-22.49.48:516][195]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [Scalability]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.RefractionQuality:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SceneColorFormat:3]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.DetailMode:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SSS.Scale:0.75]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SSS.SampleSet:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SSS.Quality:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SSS.HalfRes:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SSGI.Quality:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.25]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.ParticleLightQuality:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:0]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[fx.Niagara.QualityLevel:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [Scalability]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[foliage.DensityScale:0.4]]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[grass.DensityScale:0.4]]
+[2024.04.25-22.49.48:516][195]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [Scalability]
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2024.04.25-22.49.48:516][195]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2024.04.25-22.49.48:516][195]LogConfig: Set CVar [[r.AnisotropicMaterials:0]]
+[2024.04.25-22.49.48:534][195]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.04.25-22.49.50:158][195]LogMaterial: Warning: Incomplete material WireframeMaterial, missing (TShadowDepthPSPixelShadowDepth_VirtualShadowMap, 0) from FGPUSpriteVertexFactory.
+[2024.04.25-22.49.50:158][195]LogMaterial: Display: Incomplete cached shadermap for WireframeMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
+[2024.04.25-22.49.50:932][195]LogMaterial: Warning: Incomplete material LevelColorationLitMaterial, missing FMaterialShader (FTranslucentLightingInjectPS, 0).
+[2024.04.25-22.49.50:932][195]LogMaterial: Display: Incomplete cached shadermap for LevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
+[2024.04.25-22.49.52:227][195]LogMaterial: Warning: Incomplete material LevelColorationUnlitMaterial, missing FMaterialShader (FTranslucentLightingInjectPS, 0).
+[2024.04.25-22.49.52:227][195]LogMaterial: Display: Incomplete cached shadermap for LevelColorationUnlitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
+[2024.04.25-22.49.52:956][195]LogMaterial: Warning: Incomplete material MAT_LevelColorationLitLightmapUV, missing FMaterialShader (FTranslucentLightingInjectPS, 0).
+[2024.04.25-22.49.52:956][195]LogMaterial: Display: Incomplete cached shadermap for MAT_LevelColorationLitLightmapUV in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
+[2024.04.25-22.49.54:276][195]LogMaterial: Warning: Incomplete material ShadedLevelColorationLitMaterial, missing FMaterialShader (FTranslucentLightingInjectPS, 0).
+[2024.04.25-22.49.54:276][195]LogMaterial: Display: Incomplete cached shadermap for ShadedLevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
+[2024.04.25-22.49.55:504][195]LogMaterial: Warning: Incomplete material ShadedLevelColorationUnlitMateri, missing FMaterialShader (FTranslucentLightingInjectPS, 0).
+[2024.04.25-22.49.55:504][195]LogMaterial: Display: Incomplete cached shadermap for ShadedLevelColorationUnlitMateri in PCD3D_SM6, Default, SM6 (DDC key hash: ), compiling. Is special engine material.
+[2024.04.25-22.49.58:346][195]LogMaterial: Warning: [AssetLog] D:\University Projects\MascotHorror\Game\MascotHorror\Content\Blueprints\Camcorder_Mat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Blueprints/Camcorder.Camcorder
+
+[2024.04.25-22.49.58:346][195]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.04.25-22.49.58:350][195]LogContentStreaming: Texture pool size now 600 MB
+[2024.04.25-22.49.58:382][195]LogDerivedDataCache: Display: C:/Users/oweng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash d1780dff5c3717f584a594f2f536f3df4b81446a and existing hash e321199a0476eed9196901bdb4054688ef72ebd3 for MaterialShaderMap/42d40a47c8353b11fb9adbacbf05eb8eed59f327 from '/Engine/EditorMaterials/Thumbnails/SkySphereMaterial.SkySphereMaterial [PCD3D_SM6, SM6, Num]'
+[2024.04.25-22.49.59:190][215]LogDerivedDataCache: Display: C:/Users/oweng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash f6987237e55eca123dea3b551ce79fec299a302f and existing hash d1df270c19bcfac16e51aa56ca1f9d8c1a9347d2 for MaterialShaderMap/1e8030540e140593a5a4645a7aa45b3db853de31 from '/Engine/EngineMaterials/DefaultTextMaterialOpaque.DefaultTextMaterialOpaque [PCD3D_SM6, SM6, Num]'
+[2024.04.25-22.50.05:067][694]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.25-22.50.05:067][694]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.25-22.50.05:088][694]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.25-22.50.06:217][694]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-22.50.06:217][694]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.25-22.51.18:157][631]BlueprintLog: New page: Compile OptionsMenu
+[2024.04.25-22.51.18:253][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: ================================================
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Total job queries 12323, among them cache hits 2354 (19.10%)
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Tracking 3095 distinct input hashes that result in 1579 distinct outputs (51.02%)
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: RAM used: 21.87 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.67%
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Shaders Compiled: 1322
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Jobs assigned 1402, completed 1322 (94.29%)
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Time job spent in pending queue: average 75.38 s, longest 152.36 s
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Job execution time: average 4.25 s, max 13.40 s
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Job life time (pending + execution): average 77.56 s, max 156.28
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 210.46 s
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Jobs were issued in 961 batches (only local compilation was used), average 1.46 jobs/batch
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Average processing rate: 6.28 jobs/sec
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Total thread time: 1445.82 s
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Total thread preprocess time: 85.03 s
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Percentage time preprocessing: 5.88%
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Effective parallelization: 6.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.25-22.51.49:884][413]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 1.76 sec, max 1.76 sec, min 1.76 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 1.76 sec, max 1.79 sec, min 1.73 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    9 times, average 1.65 sec, max 3.14 sec, min 1.25 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly (compiled    6 times, average 1.64 sec, max 2.10 sec, min 1.46 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly (compiled    5 times, average 1.48 sec, max 1.73 sec, min 1.38 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                                             FDebugViewModeVS - 6.04% of total time (compiled   80 times, average 1.09 sec, max 1.48 sec, min 0.75 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.01% of total time (compiled   72 times, average 1.21 sec, max 4.55 sec, min 0.82 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.02% of total time (compiled   56 times, average 1.30 sec, max 2.55 sec, min 0.98 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.01% of total time (compiled   70 times, average 1.03 sec, max 1.27 sec, min 0.71 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.85% of total time (compiled   60 times, average 1.17 sec, max 1.74 sec, min 0.79 sec)
+[2024.04.25-22.51.49:886][413]LogShaderCompilers: Display: ================================================
+[2024.04.25-22.52.06:130][335]BlueprintLog: New page: Compile OptionsMenu
+[2024.04.25-22.52.06:245][335]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2024.04.25-22.52.42:932][463]BlueprintLog: New page: Compile OptionsMenu
+[2024.04.25-22.52.43:029][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.04.25-22.52.43:968][519]LogSlate: Window 'OptionsMenu' being destroyed
+[2024.04.25-22.52.44:023][519]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-22.52.44:023][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.52.44:041][519]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-22.52.44:041][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.52.45:533][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.04.25-22.52.46:313][623]LogSlate: Window 'Save Content' being destroyed
+[2024.04.25-22.52.46:324][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-22.52.46:368][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMenu.uasset" SILENT=true
+[2024.04.25-22.52.46:446][623]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsMenu
+[2024.04.25-22.52.46:447][623]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsMenu91E324DF4BD68DB13372B4AFF5A33DB1.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMenu.uasset'
+[2024.04.25-22.52.46:456][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 412 ms)
+[2024.04.25-22.52.46:456][623]LogAssetEditorSubsystem: Opening Asset editor for World /Game/UI/Menu_UI/Main_Menu.Main_Menu
+[2024.04.25-22.52.46:457][623]Cmd: MAP LOAD FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.25-22.52.46:457][623]LightingResults: New page: Lighting Build
+[2024.04.25-22.52.46:457][623]LoadErrors: New page: Loading map: Main_Menu.umap
+[2024.04.25-22.52.46:460][623]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-22.52.46:460][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.52.46:460][623]MapCheck: New page: Map Check
+[2024.04.25-22.52.46:460][623]LightingResults: New page: Lighting Build
+[2024.04.25-22.52.46:497][623]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.25-22.52.46:501][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2024.04.25-22.52.46:514][623]LogMaterial: Display: LandscapeMaterialInstanceConstant_0-SM6-Default: MATSM_01614A42F67F4FFC8600AD04D15D199F_PCD3D_SM6_2056272690__BC5N_NoCCBN_NoIris_DEV_SL_GV_PreExp_DBuf_UnInt_DXC0_VFO_SKYATM_SKYHF_SLWDFS_gs1_sdct_VT-0-0-1-0_DF_MS_T0_MS_T1_BNDLS_VED_Aniso-1_ComprOodle_Compr2_Lev6_ExclNonPipSh-1_LWC-2097152_3152175004D223CF754F51059EF2CB96AE54674576_Num_SM6_FL_0000000d_MFA_00000008_V_B6A0A753ED62499D8F30931E61FCAB05_0_DB3E993F4E2E98B305AD13B92D8C5DA5_5ED0A2783F630BA5CB3EC77766BEDE91B3ED4A5F___TShadowDepthPSPixelShadowDepth_PerspectiveCorrectF449D5DEDCF833608913E6CD8B760EAB37A0558772C96EE55043153763054472F92891367BC849EC_FLumenCardPS<false>C99F08DFC47581645B636159483DE183E5DB9135B4AFBC835B0E8511B596BB98C6C375E96F613E4D_TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrectF449D5DEDCF833608913E6CD8B760EAB37A055875D9003A07122BE7BD2876C98DF8D858F5E00365D_TLightMapDensityPSTLightMapPolicyHQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E29E8E0F5F6FD2EDF413A1250AA7BE6E52C951D64_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C72C399F00EA0D8E90CF7BA4C61EF5A3EF74973E9_TBasePassPSTLightMapPolicyLQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C2E4EA8FEEED7EE52C208FC54424FEDB2CB987C3B_FLandscapeGrassWeightVSCE760ED4917D7AE7004CF8C6F5F4499E9B97C589A469FA5FCF448A131F926D214995E53915A18256_TLightMapDensityVSFNoLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E891C1124EC1B5DB941DF1BA5FABB4BBFA352223F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C69888500E07A0F62E3747DCAFAE5FAC8F032AD04_FHitProxyVS7C36940791A54FBE6A358BA344C8BFAD3CAD2B93B282128ADBC0C8F2E22B2C5B575EEDED30A8B7B8_FHitProxyPSF2A8FCCDF8BB1EBC7BCC3C20C862B59EB528CDEF2A74A59EB00EA821209C26349094BBB03F4D6ED5_FLandscapeGrassWeightPSCE760ED4917D7AE7004CF8C6F5F4499E9B97C589106C943CF2E5C6D33DAE5FDC4A4E9B8232B7C78A_TBasePassPSFNoLightMapPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C6C8686026B054D9BD961D4C440F5FDD54CA38C07_TShadowDepthVSVertexShadowDepth_OutputDepth566268C17842BE32F7F4196A64F1F860A951687B5C128A2F6D1507D174ED09775E1D5BB050F02683_FLandscapePhysicalMaterialPS9BD56FDC1A69F5A3842C3E86AD24E497CDE01F1CBD4AAA5E1E701CB0F79C3E8D450BEF8AC937258A_TLightMapDensityVSFDummyLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452EA8D01D556A2A6347711968CC5B2C44E20848E17B_FLumenCardVSAC81B5EC2471BF6EB1C6B5C0DED961C1BBCB3000617646237FDC69FB38D590AA0B687E0FB01A281E_TShadowDepthPSPixelShadowDepth_VirtualShadowMapF449D5DEDCF833608913E6CD8B760EAB37A05587DFFF0B5EA8BD51A79796C1533647D79F12B2FEBD_TBasePassVSFPrecomputedVolumetricLightmapLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279FB996F0BE2BDCDA243D4A21F958EA439EF10418F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435CE098E06E3A7ED4E7D0AE384D374798EAC9E671FB_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C1BF2DD414CE38D1A46E8BD153A9AAA4080A3ED8A_TBasePassPSTLightMapPolicyHQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C26BD9FE44090B7A8EDCBBA02B66941E951A0847F_TLightMapDensityPSFDummyLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E696F9EC07D698191FA845F9186A9C2C14B87D692_TBasePassPSFCachedPointIndirectLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435CEA781543209A66E56FAA33319B50428AB09B65E2_TBasePassVSFCachedPointIndirectLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279D1726533EF0C3E687EA7E3E99D89F6645873B5F6_TBasePassPSFCachedPointIndirectLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C233B673B73AD5C3DA45AB58558A2FEAF1AB5A7AA_FVelocityPSC89A3E8742CC125CAF8FEB3824D895F0E057EC90CC98E6311AC1581B96A09EEE8AE8F6960285B5A2_TBasePassPSFCachedVolumeIndirectLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C80D0A4694439F865D3CC508893BCA55969638F38_TShadowDepthVSVertexShadowDepth_PerspectiveCorrect566268C17842BE32F7F4196A64F1F860A951687BC004ABA017AA57991204B7B624FFD889C3B24A57_TBasePassPSFCachedVolumeIndirectLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C588D69EC55B53A1F6EF1FDFE007D13A68C0DD945_TLightMapDensityPSFNoLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E0E6A1E8C16C0AF9964CF3FEFC1B82F1F3B567770_TLightMapDensityVSTLightMapPolicyLQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E436509D3C31F9011DB1B52E8E02F2100F14082F9_TBasePassVSTLightMapPolicyHQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279CE573C2FA544614368F38DB987E943642455C304_FLandscapePhysicalMaterialVS9BD56FDC1A69F5A3842C3E86AD24E497CDE01F1CDE0D5BCEA7EC56FCFAF6FE24C7902B1E6C1A2354_TBasePassPSFNoLightMapPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C3C0FD33120C8575A512698C01E1EBF84CB90BE73_TBasePassVSFCachedVolumeIndirectLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD627952DA8047FE3873ACFEEB67FCFF3AF5DF1AA7C5C8_TShadowDepthPSPixelShadowDepth_OnePassPointLightF449D5DEDCF833608913E6CD8B760EAB37A055871C20FE0F6421C3566B37C59CBA77F6639400AC09_TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD627960D5E6FFDE96A687BE1C1A2ED9EDE815F8E41839_TShadowDepthVSVertexShadowDepth_VirtualShadowMap566268C17842BE32F7F4196A64F1F860A951687BB4ECC9EA8AA550391078AD8904E08901E177AD2E_TShadowDepthVSVertexShadowDepth_OnePassPointLight566268C17842BE32F7F4196A64F1F860A951687B56E359529EA5F920092BA8DF37812C451EC3EEF6_TBasePassPSTLightMapPolicyLQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C94FC918ED25A4366478C0CE664DD0F431FB434A6_TLightMapDensityPSTLightMapPolicyLQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E0B66239385DAE6F5050046365A9D116D80E52224_TBasePassVSTLightMapPolicyLQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279BFC5C974DD65E6DA17A7D3C21BFBF250BA30283F_TLightMapDensityVSTLightMapPolicyHQC84C3C8B1FA855658F9C0A2A371DDABD1F79452EB0E82574BC7F5C377B8E738E24BDE3D732363B44_FDebugViewModePS56838088095D59EE5193ECF20E85FE62298C7B9EE177622259CDB9DC1140CF61335F5353997EC8B6_TBasePassPSTLightMapPolicyHQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C25C2A51F6B76462E73EA9720145CE5233C11211C_TDepthOnlyVS<false>24730E33B4CBAAD6CC8E99A19D1BC1E6B4CB0B0AACA14F90957AEBF5BC1C2C3E6DB6BC750BA01CCD_FVelocityVSC89A3E8742CC125CAF8FEB3824D895F0E057EC90C043BB9FD7164B6E8DBD4123FD00693BC9B4513E_FDebugViewModeVS3D41E5A6CFCAEA88797E908D01A0A213270F85AA809CB80A6A7260721600DBFAB6C1E0001BD9B8AE_TBasePassVSFNoLightMapPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD62792677AEB94C74F9DCEF44AB17F94D82839B020A23_VelocityPipeline870119D18CF0465BE0070A38FCB3F092A61618D2_DepthNoPixelPipeline24730E33B4CBAAD6CC8E99A19D1BC1E6B4CB0B0A_FLandscapeXYOffsetVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F8B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FLandscapeVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F8B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FLandscapeFixedGridVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F83F5F45F5620EF6411E27211E3D675CEA50B38DFBEBA49461CECB1EA5D21E2BF8918B91C7C3994DCE3F5F45F5620EF6411E27211E3D675CEA50B38DFB3F5F45F5620EF6411E27211E3D675CEA50B38DFB203210141414444414441444141414141444447401010101010131131010204444161512141424044442414141313101434444044444444444444442434141415101010110131313331213333434141423141342044444141413131343041413101015101010100543434343444144444444515151010101131010536161616121000404040404040404040404040404043434343434343444443434343404040404040404343434340404040444442424444444434444442424141214144444442414141434141414141414141413131313131444344444444414141414141414141414141434343444444444444434440444141414144414141414141434141414441414141444441414141414133414424444441414143234141414141314141414241234342414343434143414144414141313131343244414141244141313134444341414121212421213131444212222614114221012121212424444444444041415101510156001444444510110151515151616161616101010101015250101110041010101010101510101010101014314150001010101010101010101010101010101010101160004441404042424313131414401010101010101013101010140121313131416160601012101010101510121014044444404342404442414131500444444444444343410131313321403040404341444341433144334143314331434143414331433143314221414331444144121043141314101510101014644444404446444444444404440141510151015101500010101010101010101010101011000044414040414121010100001010101010101444442420140444444444444444444444444444444444444444444444444444444444444444444444444440431313121213131222222220101010101011010101010404424241414121010101015101510141010151010100040444444515101010004040404040404040404040404040434343434343434444434343434040404040404043434343404040404444424244444444344444424241412141444444424141414341414141414141414131313131314443444444444141414141414141414141414343434444444444444344404441414141444141414141414341414144414141414444414141414141334144244444414141432341414141413141414142412343424143434341434141444141413131313432444141412441413131344443414141212124212131314141010151515151515151515151010101010101010101515151515101510151015101510151010101010101015101616161616151015101510151015101510151013131515151510151010151016461414151010161617161636340431313131313131314422223141414101010101011100000013000000130000001300000013000000130000001300000013000000130000000D000000080000001400000010000000080000000900000008000000230000001000000010000000090000000800000008000000100000001000000010000000100000000800000008000000080000001000000010000000CE00000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000120000001000000008000000080000000800000013000000080000001000000008000000080000000800000008000000080000001300000009000000140000000E00000013000000130000001300000013000000130000001300000008000000100000000900000008000000090000000800000008000000130000000900000008000000090000000800000009000000080000000C00000009000000080000000900000009000000090000000900000009000000080000000800000008000000080000000800000013000000100000001000000010000000130000001000000010000000100000001000000009000000090000000900000010000000100000001000000010000000080000000B00000013000000130000000900000009000000090000001400000008000000090000000D0000000C00000010000000080000000800000028000000100000001000000010000000100000000900000008000000100000001000000010000000100000001000000009000000080000000800000008000000080000000D00000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000C000000080000000C00000013000000100000001000000010000000100000001000000010000000100000000D0000000C00000009000000080000000900000008000000090000000C000000080000001300000026000000110000000900000009000000090000000900000009000000100000001B000000130000001300000013000000130000001300000009000000080000000900000008000000080000000800000014000000140000000800000009000000090000000800000008000000100000000800000008000000290100001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000140000001000000010000000100000001000000009000000433AFC833894B7681A1D3DDBA35F7F5A9509A899000000000000000000000000000000000000000054BDFD528AA46A4E9413E044DCAC9A8F37A07E9D_101_101_4;
+[2024.04.25-22.52.46:519][623]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Menu'.
+[2024.04.25-22.52.46:519][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.25-22.52.46:519][623]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.25-22.52.46:588][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.25-22.52.46:632][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2024.04.25-22.52.46:681][623]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.25-22.52.46:681][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2024.04.25-22.52.46:681][623]LogFileHelpers: Loading map 'Main_Menu' took 0.224
+[2024.04.25-22.52.46:711][623]AssetCheck: New page: Asset Save: OptionsMenu
+[2024.04.25-22.52.46:711][623]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.25-22.52.48:103][736]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.25-22.52.48:117][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.25-22.52.48:118][736]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 00:52:48)
+[2024.04.25-22.52.48:164][736]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.25-22.52.48:168][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003504s)
+[2024.04.25-22.52.48:168][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.003567s)
+[2024.04.25-22.52.48:168][736]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.25-22.52.48:168][736]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.25-22.52.48:169][736]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2024.04.25-22.52.48:212][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.04.25-22.52.48:214][736]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.25-22.52.48:214][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.25-22.52.48:214][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.25-22.52.48:214][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.25-22.52.48:214][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.25-22.52.48:214][736]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.25-22.52.48:214][736]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.25-22.52.48:214][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.25-22.52.48:214][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.25-22.52.48:215][736]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.25-22.52.48:215][736]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.25-22.52.48:215][736]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.25-22.52.48:217][736]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.25-22.52.48:254][736]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.25-22.52.48:255][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.25-22.52.48:255][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.25-22.52.48:255][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.25-22.52.48:256][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.25-22.52.48:256][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.25-22.52.48:258][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.25-22.52.48:259][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.25-22.52.48:259][736]LogInit: FAudioDevice initialized.
+[2024.04.25-22.52.48:259][736]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main_Menu'.
+[2024.04.25-22.52.48:263][736]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.25-22.52.48:264][736]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.25-23.52.48
+[2024.04.25-22.52.48:264][736]LogWorld: Bringing up level for play took: 0.000918
+[2024.04.25-22.52.48:267][736]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.04.25-22.52.48:269][736]PIE: Server logged in
+[2024.04.25-22.52.48:270][736]PIE: Play in editor total start time 0.153 seconds.
+[2024.04.25-22.53.06:203][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-22.53.06:203][611]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.25-22.53.06:225][611]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-22.53.06:225][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.53.06:229][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.25-22.53.06:238][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-22.53.06:272][611]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.25-22.53.06:272][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.25-22.53.06:276][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.25-22.53.06:282][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-22.53.06:286][611]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.04.25-22.53.06:357][612]LogPlayLevel: Display: Destroying online subsystem :Context_29
