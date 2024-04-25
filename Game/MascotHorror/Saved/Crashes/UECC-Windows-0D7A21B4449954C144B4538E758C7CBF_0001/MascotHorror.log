@@ -1746,7 +1746,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.25-22.17.36:465][674]LightingResults: New page: Lighting Build
 [2024.04.25-22.17.36:503][674]LogAudio: Display: Audio Device unregistered from world 'None'.
 [2024.04.25-22.17.36:513][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
-[2024.04.25-22.17.38:432][674]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
-[2024.04.25-22.17.38:523][674]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
-[2024.04.25-22.17.40:033][674]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.049968s
-[2024.04.25-22.18.45:600][674]LogWindowsDesktop: Alt-F4 pressed!
