@@ -1185,3 +1185,361 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.26-00.20.01:497][415]AssetCheck: New page: Asset Save: multiple assets
 [2024.04.26-00.20.01:498][415]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/GameOver.GameOver
 [2024.04.26-00.20.01:498][415]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.21.01:490][784]LogDerivedDataCache: C:/Users/oweng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.148 and deleted 0 files with total size 0 MiB. Scanned 6216 files in 6033 folders with total size 253 MiB.
+[2024.04.26-00.21.05:839][ 67]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.21.05:840][ 67]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.21.05:854][ 67]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.21.05:861][ 67]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.04.26-00.21.07:284][ 67]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.21.07:284][ 67]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.21.07:363][ 67]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.26-00.21.07:374][ 67]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.04.26-00.21.07:375][ 67]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.04.26-00.23.22:831][993]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-00.23.22:845][993]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.23.22:845][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.23.22:857][993]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.23.22:857][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.23.25:001][214]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.26-00.23.25:001][214]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.23.25:008][214]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.23.25:664][214]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.23.25:664][214]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.23.31:026][603]LogSlate: Window 'OptionsMenu' being destroyed
+[2024.04.26-00.23.31:040][603]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.23.31:041][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.23.31:052][603]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.23.31:052][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.23.32:046][704]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.23.32:046][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.23.32:061][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.23.32:595][704]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.23.32:595][704]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.23.36:719][ 29]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.26-00.23.36:732][ 29]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.23.36:732][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.23.36:743][ 29]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.23.36:743][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.23.38:340][191]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.23.38:340][191]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.23.38:355][191]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.23.38:895][191]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.23.38:895][191]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.24.34:134][644]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-00.24.34:148][644]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.24.34:148][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.24.34:158][644]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.24.34:158][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.24.35:720][798]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.26-00.24.35:720][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.24.35:735][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.24.36:292][798]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.24.36:292][798]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.24.53:211][956]BlueprintLog: New page: Compile OptionsMenu
+[2024.04.26-00.24.53:354][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.04.26-00.24.57:064][196]LogSlate: Took 0.008997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.04.26-00.25.02:489][564]LogSlate: Window 'OptionsMenu' being destroyed
+[2024.04.26-00.25.02:505][564]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.25.02:505][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.25.02:515][564]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.25.02:515][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.25.04:939][811]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.25.04:940][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.25.04:954][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.25.05:493][811]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.25.05:493][811]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.25.07:199][976]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-00.25.07:212][976]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.25.07:212][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.25.07:220][976]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.25.07:222][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.25.08:073][ 60]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.25.08:073][ 60]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.25.08:087][ 60]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.25.08:629][ 60]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.25.08:629][ 60]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.25.25:665][253]BlueprintLog: New page: Compile MainMenu
+[2024.04.26-00.25.25:750][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.26-00.25.59:693][671]BlueprintLog: New page: Compile MainMenu
+[2024.04.26-00.25.59:747][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.04.26-00.26.00:532][743]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.26-00.26.00:548][743]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.26.00:548][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.26.00:558][743]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.26.00:558][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.26.04:289][115]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.26-00.26.04:290][115]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.26.04:305][115]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.26.04:853][115]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.26.04:854][115]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.27.47:753][370]BlueprintLog: New page: Compile OptionsMenu
+[2024.04.26-00.27.47:824][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.26-00.27.49:292][509]LogSlate: Window 'OptionsMenu' being destroyed
+[2024.04.26-00.27.49:308][509]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.27.49:308][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.27.49:318][509]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.27.49:318][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.27.51:270][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.26-00.27.52:148][710]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-00.27.52:153][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-00.27.52:181][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/MainMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/MainMenu.uasset" SILENT=true
+[2024.04.26-00.27.52:191][710]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/MainMenu
+[2024.04.26-00.27.52:191][710]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/MainMenu2FEF1E094680870D2686B5A8D2E7BA68.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/MainMenu.uasset'
+[2024.04.26-00.27.52:196][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMenu.uasset" SILENT=true
+[2024.04.26-00.27.52:243][710]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsMenu
+[2024.04.26-00.27.52:243][710]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsMenuAE0F14E943ACB04C13C2E3B229EC7924.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMenu.uasset'
+[2024.04.26-00.27.52:246][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset" SILENT=true
+[2024.04.26-00.27.52:250][710]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/PauseMenu
+[2024.04.26-00.27.52:251][710]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenuC0CA27CF41FAA38EE687A3A94079B096.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset'
+[2024.04.26-00.27.52:257][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 158 ms)
+[2024.04.26-00.27.52:263][710]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.26-00.27.52:263][710]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.27.52:263][710]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsMenu.OptionsMenu
+[2024.04.26-00.27.52:264][710]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.27.53:412][834]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.27.53:412][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.27.53:426][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.27.53:963][834]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.27.53:963][834]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.32.59:922][290]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-00.32.59:979][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.04.26-00.33.00:578][322]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-00.33.00:592][322]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.00:593][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.00:601][322]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.00:601][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.02:526][512]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.33.02:526][512]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.02:541][512]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.03:084][512]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.03:084][512]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.12:950][336]BlueprintLog: New page: Compile MainMenu
+[2024.04.26-00.33.13:012][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.04.26-00.33.13:514][381]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.26-00.33.13:528][381]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.13:528][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.13:537][381]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.13:537][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.14:777][504]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.33.14:777][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.14:792][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.15:335][504]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.15:335][504]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.27:181][384]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-00.33.27:233][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.26-00.33.27:661][423]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-00.33.27:675][423]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.27:675][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.27:684][423]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.27:684][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.28:503][502]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.33.28:503][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.28:518][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.29:064][502]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.29:064][502]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.38:717][290]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.26-00.33.38:727][290]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.38:727][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.38:736][290]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.38:736][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.39:810][399]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.33.39:811][399]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.39:826][399]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.40:374][399]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.40:374][399]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.40:953][450]BlueprintLog: New page: Compile MainMenu
+[2024.04.26-00.33.41:015][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.26-00.33.41:615][505]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.26-00.33.41:628][505]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.41:628][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.41:637][505]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.33.41:637][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.33.42:602][598]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.33.42:602][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.42:619][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.33.43:161][598]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.33.43:161][598]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.34.54:853][988]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-00.34.54:907][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.26-00.35.54:009][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.26-00.35.54:012][159]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.039
+[2024.04.26-00.35.54:013][159]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Menu_UI/PauseMenu] ([2] browsable assets)...
+[2024.04.26-00.35.54:016][159]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu]
+[2024.04.26-00.35.54:016][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Menu_UI/PauseMenu]
+[2024.04.26-00.35.54:016][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Saved/Autosaves/Game/UI/Menu_UI/PauseMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.04.26-00.35.54:022][159]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/Menu_UI/PauseMenu_Auto1
+[2024.04.26-00.35.54:024][159]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenu_Auto1FBC29C0C4860365397FBDC84845B3542.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/Autosaves/Game/UI/Menu_UI/PauseMenu_Auto1.uasset'
+[2024.04.26-00.35.54:024][159]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Menu_UI/MainMenu] ([2] browsable assets)...
+[2024.04.26-00.35.54:027][159]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu]
+[2024.04.26-00.35.54:027][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Menu_UI/MainMenu]
+[2024.04.26-00.35.54:027][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/MainMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Saved/Autosaves/Game/UI/Menu_UI/MainMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.04.26-00.35.54:036][159]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/Menu_UI/MainMenu_Auto1
+[2024.04.26-00.35.54:036][159]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/MainMenu_Auto1856A14A9419488D22DC75988C08E533E.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/Autosaves/Game/UI/Menu_UI/MainMenu_Auto1.uasset'
+[2024.04.26-00.35.54:037][159]LogFileHelpers: Auto-saving content packages took 0.024
+[2024.04.26-00.36.53:694][421]LogEditorTransaction: Undo Move Widget
+[2024.04.26-00.36.54:081][434]LogEditorTransaction: Undo Rename Widget
+[2024.04.26-00.36.54:414][453]LogEditorTransaction: Undo Edit Text
+[2024.04.26-00.36.54:801][488]LogEditorTransaction: Undo Rename Widget
+[2024.04.26-00.36.55:160][520]LogEditorTransaction: Undo Changed Anchors
+[2024.04.26-00.36.56:783][674]LogEditorTransaction: Redo Changed Anchors
+[2024.04.26-00.42.33:245][298]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.42.33:245][298]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.42.40:018][840]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.42.40:018][840]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.42.47:771][460]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.42.47:771][460]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.42.55:866][ 95]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.42.55:866][ 95]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.43.36:888][239]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.43.36:889][239]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.43.36:889][239]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.44.08:515][522]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-00.44.08:578][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.04.26-00.44.46:371][422]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-00.44.46:429][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.26-00.44.46:989][474]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-00.44.47:002][474]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.44.47:003][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.44.47:012][474]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.44.47:012][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.45.01:219][  9]LogContentBrowser: Attempting asset rename: OptionsMenu -> OptionsMainMenu
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu_C' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:Window Mode Text.K2Node_FunctionResult_0' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:Window Mode Text.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:Resolution Text.K2Node_FunctionResult_0' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:Resolution Text.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:GFX Quality Text.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:GFX Quality Text.K2Node_FunctionResult_1' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:V-Sync Text.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu:V-Sync Text.K2Node_FunctionResult_1' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_ApplyButton_K2Node_ComponentBoundEvent_19_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_V-Sync>_K2Node_ComponentBoundEvent_17_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_V-Sync<_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_GFXQuality>_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_GFXQuality<_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_Resolution>_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_WindowMode>_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_Resolution<_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_WindowMode<_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_Slider_123_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:BndEvt__OptionsMenu_BackButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:Tick' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.SKEL_OptionsMainMenu_C:PreConstruct' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:264][  9]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsMenu.PackageMetaData'
+[2024.04.26-00.45.01:266][  9]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-00.45.01:293][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/MainMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/MainMenu.uasset" SILENT=true
+[2024.04.26-00.45.01:303][  9]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/MainMenu
+[2024.04.26-00.45.01:303][  9]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/MainMenu2E3830B1428E366D361E3CA9CC1C44D5.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/MainMenu.uasset'
+[2024.04.26-00.45.01:304][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsMainMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMainMenu.uasset" SILENT=true
+[2024.04.26-00.45.01:351][  9]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsMainMenu
+[2024.04.26-00.45.01:351][  9]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsMainMenuFDBE84014A721462E94377B37A8E61C1.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMainMenu.uasset'
+[2024.04.26-00.45.01:358][  9]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 250 ms)
+[2024.04.26-00.45.01:412][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.26-00.45.01:453][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.26-00.45.01:481][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.04.26-00.45.01:486][  9]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.26-00.45.01:486][  9]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-00.45.01:488][  9]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.45.04:282][314]LogContentBrowser: Deferred new asset file creation: OptionsMainMenu1
+[2024.04.26-00.45.04:286][314]LogContentBrowser: Creating deferred item: OptionsMainMenu1
+[2024.04.26-00.45.04:296][315]LogContentBrowser: Renaming the item being created (Deferred Item: OptionsMainMenu1).
+[2024.04.26-00.45.11:196][ 75]LogContentBrowser: Attempting asset rename: OptionsMainMenu1 -> OptionsPauseMenu1
+[2024.04.26-00.45.11:261][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.26-00.45.11:294][ 75]LogContentBrowser: End creating deferred item OptionsMainMenu1
+[2024.04.26-00.45.15:164][500]LogContentBrowser: Attempting asset rename: OptionsPauseMenu1 -> OptionsPauseMenu
+[2024.04.26-00.45.15:188][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:188][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu_C' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:188][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:PreConstruct' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:188][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:Tick' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:188][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_BackButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_Slider_123_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_WindowMode<_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_Resolution<_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_WindowMode>_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_Resolution>_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_GFXQuality<_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_GFXQuality>_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_V-Sync<_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_V-Sync>_K2Node_ComponentBoundEvent_17_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_ApplyButton_K2Node_ComponentBoundEvent_19_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu1.PackageMetaData'
+[2024.04.26-00.45.15:189][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-00.45.15:223][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsPauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset" SILENT=true
+[2024.04.26-00.45.15:269][500]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsPauseMenu
+[2024.04.26-00.45.15:269][500]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsPauseMenu9CFEBAB64AEEE7A0B3E43DADFEA41FAB.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset'
+[2024.04.26-00.45.15:277][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 337 ms)
+[2024.04.26-00.45.15:315][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.26-00.45.15:343][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.04.26-00.45.15:370][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.04.26-00.45.15:376][500]AssetCheck: New page: Asset Save: OptionsPauseMenu
+[2024.04.26-00.45.15:376][500]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
+[2024.04.26-00.45.19:049][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.04.26-00.45.19:849][893]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-00.45.19:855][893]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-00.45.19:889][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset" SILENT=true
+[2024.04.26-00.45.19:899][893]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/PauseMenu
+[2024.04.26-00.45.19:900][893]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenu62FD09384812E16A6621AB9875337B47.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset'
+[2024.04.26-00.45.19:906][893]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 388 ms)
+[2024.04.26-00.45.19:911][893]AssetCheck: New page: Asset Save: PauseMenu
+[2024.04.26-00.45.19:911][893]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.45.21:942][104]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-00.45.21:942][104]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.45.21:957][104]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.45.22:512][104]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.45.22:512][104]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.45.29:668][733]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.45.29:668][733]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.45.29:668][733]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.45.43:150][ 78]BlueprintLog: New page: Compile MainMenu
+[2024.04.26-00.45.43:213][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.26-00.45.45:634][305]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.26-00.45.45:646][305]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.45.45:646][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.45.45:656][305]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.45.45:657][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.45.48:081][557]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
+[2024.04.26-00.45.48:081][557]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.45.48:095][557]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.45.48:662][557]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.45.48:662][557]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.45.57:896][263]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.45.57:896][263]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.45.57:896][263]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.46.07:010][ 64]BlueprintLog: New page: Compile OptionsPauseMenu
+[2024.04.26-00.46.07:086][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.26-00.46.15:979][800]LogSlate: Window 'OptionsPauseMenu' being destroyed
+[2024.04.26-00.46.15:990][800]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.46.15:990][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.46.16:001][800]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.46.16:001][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.46.18:691][ 78]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.46.18:691][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.46.18:706][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-00.46.19:263][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.46.19:263][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-00.46.25:272][553]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.46.25:272][553]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.46.25:272][553]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-00.47.02:969][587]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-00.47.03:031][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.26-00.47.10:577][367]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-00.47.10:592][367]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.47.10:592][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.47.10:601][367]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-00.47.10:601][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-00.47.18:264][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.26-00.47.20:660][164]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-00.47.20:666][164]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-00.47.20:700][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsPauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset" SILENT=true
+[2024.04.26-00.47.20:747][164]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsPauseMenu
+[2024.04.26-00.47.20:747][164]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsPauseMenuEEBF50C04E4DE80C9B1CDD9FF4165CC9.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset'
+[2024.04.26-00.47.20:750][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset" SILENT=true
+[2024.04.26-00.47.20:760][164]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/PauseMenu
+[2024.04.26-00.47.20:760][164]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenu7AA91EF3455351EC7C8E77BC3C3965FF.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset'
+[2024.04.26-00.47.20:767][164]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 488 ms)
+[2024.04.26-00.47.20:774][164]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.26-00.47.20:774][164]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-00.47.20:774][164]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
