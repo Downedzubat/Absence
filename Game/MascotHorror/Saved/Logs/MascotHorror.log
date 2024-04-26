@@ -2840,3 +2840,1456 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.26-01.37.52:418][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.04.26-01.37.52:427][648]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
 [2024.04.26-01.37.52:427][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.39.43:307][289]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-01.39.43:308][289]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.39.43:315][289]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.39.43:878][289]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.39.43:878][289]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.40.39:939][530]BlueprintLog: New page: Compile MainMenu
+[2024.04.26-01.40.40:004][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.04.26-01.40.41:822][729]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.26-01.40.41:868][729]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.40.41:868][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.40.41:877][729]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.40.41:877][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.40.43:649][924]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.40.43:657][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.40.43:657][924]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:40:43)
+[2024.04.26-01.40.43:689][924]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.40.43:697][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008039s)
+[2024.04.26-01.40.43:697][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008072s)
+[2024.04.26-01.40.43:697][924]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.40.43:697][924]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.40.43:698][924]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2024.04.26-01.40.43:727][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.04.26-01.40.43:741][924]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.26-01.40.43:741][924]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.40.43:741][924]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.40.43:741][924]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.40.43:741][924]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.40.43:741][924]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.40.43:741][924]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.40.43:741][924]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.40.43:741][924]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.40.43:741][924]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.40.43:741][924]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.40.43:741][924]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.40.43:743][924]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.40.43:768][924]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.40.43:769][924]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.40.43:769][924]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.40.43:769][924]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.40.43:769][924]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.26-01.40.43:769][924]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.26-01.40.43:771][924]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.26-01.40.43:771][924]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.26-01.40.43:771][924]LogInit: FAudioDevice initialized.
+[2024.04.26-01.40.43:771][924]LogAudio: Display: Audio Device (ID: 11) registered with world 'Main_Menu'.
+[2024.04.26-01.40.43:774][924]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.40.43:778][924]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.40.43
+[2024.04.26-01.40.43:779][924]LogWorld: Bringing up level for play took: 0.004211
+[2024.04.26-01.40.43:781][924]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.04.26-01.40.43:782][924]PIE: Server logged in
+[2024.04.26-01.40.43:783][924]PIE: Play in editor total start time 0.125 seconds.
+[2024.04.26-01.40.43:857][924]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.40.48:230][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.40.48:230][443]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.40.48:230][443]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.40.48:230][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.40.48:239][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.40.48:244][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.40.48:270][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.40.48:270][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.26-01.40.48:272][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.26-01.40.48:279][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.04.26-01.40.48:311][444]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.04.26-01.40.51:408][811]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.40.51:408][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.40.51:415][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.40.51:968][811]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.40.51:968][811]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.40.58:278][241]LogSlate: Window 'OptionsMainMenu' being destroyed
+[2024.04.26-01.40.58:298][241]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.40.58:298][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.40.58:308][241]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.40.58:308][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.40.59:637][386]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.40.59:637][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.40.59:644][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.41.00:192][386]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.41.00:193][386]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.41.03:461][640]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-01.41.03:478][640]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.41.03:478][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.41.03:488][640]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.41.03:488][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.41.04:713][770]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.41.04:713][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.41.04:728][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.41.05:285][770]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.41.05:285][770]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.42.16:943][885]BlueprintLog: New page: Compile OptionsMainMenu
+[2024.04.26-01.42.17:025][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.04.26-01.42.19:044][ 92]LogSlate: Window 'OptionsMainMenu' being destroyed
+[2024.04.26-01.42.19:066][ 92]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.19:067][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.19:075][ 92]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.19:076][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.20:518][253]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.42.20:527][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.42.20:527][253]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:42:20)
+[2024.04.26-01.42.20:527][253]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.42.20:535][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008028s)
+[2024.04.26-01.42.20:535][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008057s)
+[2024.04.26-01.42.20:535][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.20:536][253]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.42.20:536][253]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2024.04.26-01.42.20:565][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.26-01.42.20:573][253]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.26-01.42.20:573][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.42.20:573][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.42.20:573][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.42.20:573][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.42.20:573][253]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.42.20:573][253]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.42.20:573][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.42.20:573][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.42.20:574][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.42.20:574][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.42.20:574][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.42.20:576][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.42.20:602][253]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.42.20:602][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.42.20:602][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.42.20:602][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.42.20:602][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.26-01.42.20:602][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.26-01.42.20:604][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.26-01.42.20:604][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.26-01.42.20:604][253]LogInit: FAudioDevice initialized.
+[2024.04.26-01.42.20:604][253]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main_Menu'.
+[2024.04.26-01.42.20:607][253]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.42.20:611][253]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.42.20
+[2024.04.26-01.42.20:611][253]LogWorld: Bringing up level for play took: 0.004187
+[2024.04.26-01.42.20:613][253]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.04.26-01.42.20:614][253]PIE: Server logged in
+[2024.04.26-01.42.20:615][253]PIE: Play in editor total start time 0.088 seconds.
+[2024.04.26-01.42.20:686][253]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.42.25:954][883]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.42.25:954][883]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.42.25:954][883]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.42.25:955][883]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.25:955][883]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.26:007][883]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.42.26:010][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.26-01.42.26:127][883]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main_Area'.
+[2024.04.26-01.42.26:128][883]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.26:128][883]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.42.26:128][883]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2024.04.26-01.42.26:129][883]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.42.26:157][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.42.26:157][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.42.26:157][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.42.26:158][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.26:158][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.26:159][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:159][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:159][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:159][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:159][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:159][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:159][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:160][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.42.26:180][883]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.42.26
+[2024.04.26-01.42.26:181][883]LogWorld: Bringing up level for play took: 0.051539
+[2024.04.26-01.42.26:186][883]LogLoad: Took 0.232452 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.42.26:199][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.42.26:200][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.42.26:200][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.42.26:201][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.26:201][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.26:203][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:203][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:203][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:203][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:203][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:203][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:203][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.26:204][883]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: ================================================
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Total job queries 771, among them cache hits 223 (28.92%)
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Tracking 548 distinct input hashes that result in 386 distinct outputs (70.44%)
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: RAM used: 4.09 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.50%
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Shaders Compiled: 6
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100.00%)
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Average time worker was idle: 244.10 s
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.08 s
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Job execution time: average 1.22 s, max 1.52 s
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Job life time (pending + execution): average 1.30 s, max 1.59
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.30 s
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Average processing rate: 1.40 jobs/sec
+[2024.04.26-01.42.26:218][883]LogShaderCompilers: Display: Total thread time: 3.14 s
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display: Total thread preprocess time: 0.20 s
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display: Percentage time preprocessing: 6.20%
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display: Effective parallelization: 0.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.03% of total time (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.96% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                                 FLumenCardVS - 24.74% of total time (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.27% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.04.26-01.42.26:219][883]LogShaderCompilers: Display: ================================================
+[2024.04.26-01.42.26:713][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.42.26:713][918]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.42.26:713][918]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.26:716][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.26:719][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.42.26:725][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.26:754][918]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.42.26:754][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.26-01.42.26:756][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.26-01.42.26:760][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.42.26:769][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.26-01.42.26:810][919]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.04.26-01.42.28:189][ 80]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.42.28:197][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.42.28:197][ 80]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:42:28)
+[2024.04.26-01.42.28:232][ 80]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.42.28:240][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008036s)
+[2024.04.26-01.42.28:241][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008070s)
+[2024.04.26-01.42.28:241][ 80]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.28:241][ 80]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.42.28:241][ 80]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2024.04.26-01.42.28:267][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.26-01.42.28:269][ 80]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.26-01.42.28:269][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.42.28:269][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.42.28:269][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.42.28:270][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.42.28:270][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.42.28:270][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.42.28:270][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.42.28:270][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.42.28:270][ 80]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.42.28:270][ 80]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.42.28:270][ 80]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.42.28:272][ 80]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.42.28:297][ 80]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.42.28:298][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.42.28:298][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.42.28:298][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.42.28:298][ 80]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.26-01.42.28:298][ 80]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.26-01.42.28:300][ 80]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.26-01.42.28:300][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.26-01.42.28:300][ 80]LogInit: FAudioDevice initialized.
+[2024.04.26-01.42.28:300][ 80]LogAudio: Display: Audio Device (ID: 13) registered with world 'Main_Menu'.
+[2024.04.26-01.42.28:303][ 80]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.42.28:307][ 80]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.42.28
+[2024.04.26-01.42.28:307][ 80]LogWorld: Bringing up level for play took: 0.004266
+[2024.04.26-01.42.28:309][ 80]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.04.26-01.42.28:310][ 80]PIE: Server logged in
+[2024.04.26-01.42.28:311][ 80]PIE: Play in editor total start time 0.114 seconds.
+[2024.04.26-01.42.28:376][ 80]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.42.29:119][167]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.42.29:120][167]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.42.29:120][167]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.42.29:120][167]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.29:120][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.29:178][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.42.29:181][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.26-01.42.29:298][167]LogAudio: Display: Audio Device (ID: 13) registered with world 'Main_Area'.
+[2024.04.26-01.42.29:298][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.29:298][167]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.42.29:299][167]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2024.04.26-01.42.29:299][167]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.42.29:327][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.42.29:328][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.42.29:328][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.42.29:329][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.29:329][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:330][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.42.29:350][167]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.42.29
+[2024.04.26-01.42.29:352][167]LogWorld: Bringing up level for play took: 0.051241
+[2024.04.26-01.42.29:358][167]LogLoad: Took 0.237902 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.42.29:369][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.42.29:370][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.42.29:370][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.42.29:370][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.29:370][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.42.29:373][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:373][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:373][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:373][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:373][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:373][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:373][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.42.29:374][167]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.42.29:861][204]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.42.29:861][204]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.26-01.42.36:891][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.42.36:891][976]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.42.36:914][976]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.36:917][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.36:921][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.42.36:926][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.36:956][976]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.42.36:956][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.26-01.42.36:958][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.26-01.42.36:961][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.42.36:969][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.04.26-01.42.37:014][977]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.04.26-01.42.38:868][195]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.42.38:868][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.38:875][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.39:427][195]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.42.39:427][195]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.42.49:321][931]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-01.42.49:340][931]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.49:340][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.49:349][931]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.42.49:349][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.42.50:519][ 53]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.42.50:520][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.50:527][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.42.51:089][ 53]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.42.51:089][ 53]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.43.34:059][245]BlueprintLog: New page: Compile OptionsMainMenu
+[2024.04.26-01.43.34:135][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.26-01.43.38:696][718]LogSlate: Window 'OptionsMainMenu' being destroyed
+[2024.04.26-01.43.38:750][718]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.43.38:751][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.43.38:760][718]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.43.38:760][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.43.46:116][584]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.43.46:123][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.43.46:124][584]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:43:46)
+[2024.04.26-01.43.46:151][584]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.43.46:160][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008068s)
+[2024.04.26-01.43.46:160][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008102s)
+[2024.04.26-01.43.46:160][584]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.43.46:160][584]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.43.46:160][584]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2024.04.26-01.43.46:190][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.26-01.43.46:199][584]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.04.26-01.43.46:199][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.43.46:199][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.43.46:199][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.43.46:199][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.43.46:199][584]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.43.46:199][584]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.43.46:199][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.43.46:199][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.43.46:200][584]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.43.46:200][584]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.43.46:200][584]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.43.46:201][584]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.43.46:227][584]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.43.46:227][584]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.43.46:227][584]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.43.46:227][584]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.43.46:227][584]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.04.26-01.43.46:228][584]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.04.26-01.43.46:230][584]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.04.26-01.43.46:230][584]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.04.26-01.43.46:230][584]LogInit: FAudioDevice initialized.
+[2024.04.26-01.43.46:230][584]LogAudio: Display: Audio Device (ID: 14) registered with world 'Main_Menu'.
+[2024.04.26-01.43.46:233][584]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.43.46:237][584]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.43.46
+[2024.04.26-01.43.46:237][584]LogWorld: Bringing up level for play took: 0.004228
+[2024.04.26-01.43.46:239][584]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.04.26-01.43.46:240][584]PIE: Server logged in
+[2024.04.26-01.43.46:241][584]PIE: Play in editor total start time 0.118 seconds.
+[2024.04.26-01.43.46:310][584]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.43.55:413][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.43.55:413][674]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.43.55:444][674]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.43.55:444][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.43.55:446][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.43.55:452][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.43.55:477][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.43.55:478][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.26-01.43.55:479][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.26-01.43.55:487][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.04.26-01.43.55:531][675]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.04.26-01.44.07:708][128]LogContentBrowser: Attempting asset rename: OptionsPauseMenu -> OptionsPauseMenu2
+[2024.04.26-01.44.07:733][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.OptionsPauseMenu2_C' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.OptionsPauseMenu2_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:PreConstruct' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:Tick' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_BackButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_Slider_123_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_WindowMode<_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_Resolution<_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_WindowMode>_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_Resolution>_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_GFXQuality<_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_GFXQuality>_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_V-Sync<_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_V-Sync>_K2Node_ComponentBoundEvent_17_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:BndEvt__OptionsMenu_ApplyButton_K2Node_ComponentBoundEvent_19_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:734][128]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu2.SKEL_OptionsPauseMenu2_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsPauseMenu.PackageMetaData'
+[2024.04.26-01.44.07:738][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-01.44.07:767][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset" SILENT=true
+[2024.04.26-01.44.07:780][128]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/PauseMenu
+[2024.04.26-01.44.07:781][128]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenuB1FDFCCA43F784B6C2F47580D0CD74F5.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset'
+[2024.04.26-01.44.07:781][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsPauseMenu2" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu2.uasset" SILENT=true
+[2024.04.26-01.44.07:828][128]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsPauseMenu2
+[2024.04.26-01.44.07:828][128]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsPauseMenu2646CCA0D4933FAE9346B9FBC30E76FBA.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu2.uasset'
+[2024.04.26-01.44.07:834][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 464 ms)
+[2024.04.26-01.44.07:873][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.26-01.44.07:902][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.26-01.44.07:928][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.26-01.44.07:935][128]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.26-01.44.07:935][128]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.44.07:936][128]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu2.OptionsPauseMenu2
+[2024.04.26-01.44.09:236][277]LogContentBrowser: Deferred new asset file creation: OptionsMainMenu1
+[2024.04.26-01.44.09:239][277]LogContentBrowser: Creating deferred item: OptionsMainMenu1
+[2024.04.26-01.44.09:249][278]LogContentBrowser: Renaming the item being created (Deferred Item: OptionsMainMenu1).
+[2024.04.26-01.44.12:453][663]LogContentBrowser: Attempting asset rename: OptionsMainMenu1 -> OptionsMainMenu1
+[2024.04.26-01.44.12:513][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.04.26-01.44.12:547][663]LogContentBrowser: End creating deferred item OptionsMainMenu1
+[2024.04.26-01.44.15:109][969]LogContentBrowser: Attempting asset rename: OptionsPauseMenu2 -> OptionsPauseMenu2
+[2024.04.26-01.44.18:459][366]LogContentBrowser: Attempting asset rename: OptionsMainMenu1 -> OptionsPauseMenu
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu_C' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:PreConstruct' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:Tick' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_BackButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_Slider_123_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_WindowMode<_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_Resolution<_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_WindowMode>_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_Resolution>_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_GFXQuality<_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_GFXQuality>_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_V-Sync<_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_V-Sync>_K2Node_ComponentBoundEvent_17_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:BndEvt__OptionsMenu_ApplyButton_K2Node_ComponentBoundEvent_19_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.SKEL_OptionsPauseMenu_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:483][366]LogMetaData: Removing '/Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu_C:Construct' ref from Metadata '/Game/UI/Menu_UI/OptionsMainMenu1.PackageMetaData'
+[2024.04.26-01.44.18:486][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-01.44.18:518][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsPauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset" SILENT=true
+[2024.04.26-01.44.18:565][366]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsPauseMenu
+[2024.04.26-01.44.18:565][366]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsPauseMenuE692D37143373AC9D42425A1053DED51.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset'
+[2024.04.26-01.44.18:573][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 550 ms)
+[2024.04.26-01.44.18:610][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.26-01.44.18:638][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.26-01.44.18:665][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.04.26-01.44.18:672][366]AssetCheck: New page: Asset Save: OptionsPauseMenu
+[2024.04.26-01.44.18:672][366]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
+[2024.04.26-01.44.20:457][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.04.26-01.44.27:736][572]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.26-01.44.29:824][817]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu2.OptionsPauseMenu2
+[2024.04.26-01.44.29:825][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.44.29:831][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.44.30:390][817]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.44.30:390][817]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.44.31:484][915]LogSlate: Window 'OptionsPauseMenu2' being destroyed
+[2024.04.26-01.44.31:537][915]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.44.31:537][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.44.31:547][915]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.44.31:547][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.44.32:976][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.26-01.44.39:144][ 72]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.26-01.44.39:891][157]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.44.39:891][157]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.44.39:898][157]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.44.40:446][157]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.44.40:446][157]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.44.47:055][696]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-01.44.47:055][696]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-01.44.47:055][696]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-01.44.53:547][233]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-01.44.53:608][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.26-01.44.54:422][291]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-01.44.54:470][291]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.44.54:470][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.44.54:480][291]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.44.54:480][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.44.56:624][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.26-01.45.02:366][531]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.26-01.45.02:409][531]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/UI/Menu_UI/OptionsPauseMenu2.OptionsPauseMenu2
+	Asset Type: WidgetBlueprint
+[2024.04.26-01.45.02:862][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.04.26-01.45.02:889][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.04.26-01.45.02:916][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.26-01.45.05:698][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.04.26-01.45.06:538][855]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-01.45.06:545][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-01.45.06:578][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/MainMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/MainMenu.uasset" SILENT=true
+[2024.04.26-01.45.06:588][855]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/MainMenu
+[2024.04.26-01.45.06:588][855]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/MainMenuF25BE132403EEA0DA427D3A7AF0E6543.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/MainMenu.uasset'
+[2024.04.26-01.45.06:592][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsMainMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMainMenu.uasset" SILENT=true
+[2024.04.26-01.45.06:639][855]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsMainMenu
+[2024.04.26-01.45.06:639][855]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsMainMenu33C786E34205A8428C7FF2889DEE457B.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMainMenu.uasset'
+[2024.04.26-01.45.06:642][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset" SILENT=true
+[2024.04.26-01.45.06:656][855]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/PauseMenu
+[2024.04.26-01.45.06:656][855]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenuB72ACF7A4ED8828B2565E8B0299BD345.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset'
+[2024.04.26-01.45.06:663][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 668 ms)
+[2024.04.26-01.45.06:670][855]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.26-01.45.06:670][855]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.45.06:670][855]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.45.06:671][855]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/MainMenu.MainMenu
+[2024.04.26-01.45.08:500][ 69]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.45.08:509][ 69]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.26-01.45.08:512][ 69]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2024.04.26-01.45.08:540][ 69]LogPlayLevel: [PlayLevel] Compiling OptionsMainMenu before play...
+[2024.04.26-01.45.08:607][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.26-01.45.08:608][ 69]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (2 blueprints)
+[2024.04.26-01.45.08:608][ 69]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:45:08)
+[2024.04.26-01.45.08:608][ 69]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.45.08:616][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008106s)
+[2024.04.26-01.45.08:616][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008138s)
+[2024.04.26-01.45.08:616][ 69]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.08:616][ 69]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.45.08:617][ 69]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2024.04.26-01.45.08:644][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.26-01.45.08:645][ 69]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.26-01.45.08:645][ 69]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.45.08:645][ 69]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.45.08:645][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.45.08:645][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.45.08:645][ 69]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.45.08:645][ 69]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.45.08:645][ 69]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.45.08:645][ 69]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.45.08:646][ 69]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.45.08:646][ 69]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.45.08:646][ 69]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.45.08:648][ 69]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.45.08:673][ 69]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.45.08:674][ 69]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.45.08:674][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.45.08:674][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.45.08:674][ 69]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.26-01.45.08:674][ 69]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.26-01.45.08:677][ 69]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.26-01.45.08:677][ 69]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.26-01.45.08:677][ 69]LogInit: FAudioDevice initialized.
+[2024.04.26-01.45.08:677][ 69]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main_Menu'.
+[2024.04.26-01.45.08:679][ 69]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.45.08:683][ 69]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.45.08
+[2024.04.26-01.45.08:683][ 69]LogWorld: Bringing up level for play took: 0.004245
+[2024.04.26-01.45.08:685][ 69]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.04.26-01.45.08:687][ 69]PIE: Server logged in
+[2024.04.26-01.45.08:687][ 69]PIE: Play in editor total start time 0.179 seconds.
+[2024.04.26-01.45.08:756][ 69]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.45.09:309][133]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.45.09:309][133]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.45.09:309][133]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.45.09:309][133]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.09:310][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.09:369][133]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.45.09:372][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.26-01.45.09:488][133]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main_Area'.
+[2024.04.26-01.45.09:489][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.09:489][133]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.45.09:489][133]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2024.04.26-01.45.09:490][133]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.45.09:519][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.45.09:519][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.45.09:520][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.45.09:520][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.09:520][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.09:521][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:521][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:521][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:521][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:521][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:521][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:521][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:522][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.45.09:542][133]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.45.09
+[2024.04.26-01.45.09:543][133]LogWorld: Bringing up level for play took: 0.051922
+[2024.04.26-01.45.09:548][133]LogLoad: Took 0.239627 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.45.09:563][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.45.09:564][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.45.09:564][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.45.09:565][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.09:565][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.09:566][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:566][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:566][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:566][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:566][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:566][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:566][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.09:567][133]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.45.10:162][181]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.45.10:162][181]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.26-01.45.16:920][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.45.16:920][924]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.45.16:955][924]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.16:959][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.16:962][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.45.16:968][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.16:997][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.45.16:998][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.26-01.45.17:000][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.26-01.45.17:012][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.04.26-01.45.17:056][925]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.04.26-01.45.21:914][495]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
+[2024.04.26-01.45.21:915][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.21:922][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.22:486][495]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.45.22:486][495]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.45.32:346][225]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-01.45.32:346][225]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-01.45.32:346][225]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.26-01.45.37:417][640]BlueprintLog: New page: Compile OptionsPauseMenu
+[2024.04.26-01.45.37:489][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.04.26-01.45.38:326][698]LogSlate: Window 'OptionsPauseMenu' being destroyed
+[2024.04.26-01.45.38:338][698]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.38:338][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.38:347][698]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.38:347][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.41:673][ 58]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/GameOver.GameOver
+[2024.04.26-01.45.41:673][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.41:681][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.42:233][ 58]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.45.42:233][ 58]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.45.43:251][164]LogSlate: Window 'GameOver' being destroyed
+[2024.04.26-01.45.43:268][164]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.43:268][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.43:276][164]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.43:276][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.44:003][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.04.26-01.45.44:733][236]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-01.45.44:740][236]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-01.45.44:775][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsPauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset" SILENT=true
+[2024.04.26-01.45.44:822][236]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsPauseMenu
+[2024.04.26-01.45.44:822][236]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsPauseMenu09594B57450565404DB02181A5AB2EE2.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset'
+[2024.04.26-01.45.44:829][236]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 757 ms)
+[2024.04.26-01.45.44:829][236]LogAssetEditorSubsystem: Opening Asset editor for World /Game/UI/Menu_UI/Main_Menu.Main_Menu
+[2024.04.26-01.45.44:829][236]Cmd: MAP LOAD FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.26-01.45.44:829][236]LightingResults: New page: Lighting Build
+[2024.04.26-01.45.44:829][236]LoadErrors: New page: Loading map: Main_Menu.umap
+[2024.04.26-01.45.44:868][236]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.44:868][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.44:868][236]MapCheck: New page: Map Check
+[2024.04.26-01.45.44:868][236]LightingResults: New page: Lighting Build
+[2024.04.26-01.45.44:894][236]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.45.44:897][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.04.26-01.45.44:915][236]LogMaterial: Display: LandscapeMaterialInstanceConstant_0-SM6-Default: MATSM_01614A42F67F4FFC8600AD04D15D199F_PCD3D_SM6_2056272690__BC5N_NoCCBN_NoIris_DEV_SL_GV_PreExp_DBuf_UnInt_DXC0_VFO_SKYATM_SKYHF_SLWDFS_gs1_sdct_VT-0-0-1-0_DF_MS_T0_MS_T1_BNDLS_VED_Aniso-1_ComprOodle_Compr2_Lev6_ExclNonPipSh-1_LWC-2097152_3152175004D223CF754F51059EF2CB96AE54674576_Num_SM6_FL_0000000d_MFA_00000008_V_B6A0A753ED62499D8F30931E61FCAB05_0_DB3E993F4E2E98B305AD13B92D8C5DA5_5ED0A2783F630BA5CB3EC77766BEDE91B3ED4A5F___TShadowDepthPSPixelShadowDepth_PerspectiveCorrectF449D5DEDCF833608913E6CD8B760EAB37A0558772C96EE55043153763054472F92891367BC849EC_FLumenCardPS<false>C99F08DFC47581645B636159483DE183E5DB9135B4AFBC835B0E8511B596BB98C6C375E96F613E4D_TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrectF449D5DEDCF833608913E6CD8B760EAB37A055875D9003A07122BE7BD2876C98DF8D858F5E00365D_TLightMapDensityPSTLightMapPolicyHQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E29E8E0F5F6FD2EDF413A1250AA7BE6E52C951D64_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C72C399F00EA0D8E90CF7BA4C61EF5A3EF74973E9_TBasePassPSTLightMapPolicyLQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C2E4EA8FEEED7EE52C208FC54424FEDB2CB987C3B_FLandscapeGrassWeightVSCE760ED4917D7AE7004CF8C6F5F4499E9B97C589A469FA5FCF448A131F926D214995E53915A18256_TLightMapDensityVSFNoLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E891C1124EC1B5DB941DF1BA5FABB4BBFA352223F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C69888500E07A0F62E3747DCAFAE5FAC8F032AD04_FHitProxyVS7C36940791A54FBE6A358BA344C8BFAD3CAD2B93B282128ADBC0C8F2E22B2C5B575EEDED30A8B7B8_FHitProxyPSF2A8FCCDF8BB1EBC7BCC3C20C862B59EB528CDEF2A74A59EB00EA821209C26349094BBB03F4D6ED5_FLandscapeGrassWeightPSCE760ED4917D7AE7004CF8C6F5F4499E9B97C589106C943CF2E5C6D33DAE5FDC4A4E9B8232B7C78A_TBasePassPSFNoLightMapPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C6C8686026B054D9BD961D4C440F5FDD54CA38C07_TShadowDepthVSVertexShadowDepth_OutputDepth566268C17842BE32F7F4196A64F1F860A951687B5C128A2F6D1507D174ED09775E1D5BB050F02683_FLandscapePhysicalMaterialPS9BD56FDC1A69F5A3842C3E86AD24E497CDE01F1CBD4AAA5E1E701CB0F79C3E8D450BEF8AC937258A_TLightMapDensityVSFDummyLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452EA8D01D556A2A6347711968CC5B2C44E20848E17B_FLumenCardVSAC81B5EC2471BF6EB1C6B5C0DED961C1BBCB3000617646237FDC69FB38D590AA0B687E0FB01A281E_TShadowDepthPSPixelShadowDepth_VirtualShadowMapF449D5DEDCF833608913E6CD8B760EAB37A05587DFFF0B5EA8BD51A79796C1533647D79F12B2FEBD_TBasePassVSFPrecomputedVolumetricLightmapLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279FB996F0BE2BDCDA243D4A21F958EA439EF10418F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435CE098E06E3A7ED4E7D0AE384D374798EAC9E671FB_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C1BF2DD414CE38D1A46E8BD153A9AAA4080A3ED8A_TBasePassPSTLightMapPolicyHQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C26BD9FE44090B7A8EDCBBA02B66941E951A0847F_TLightMapDensityPSFDummyLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E696F9EC07D698191FA845F9186A9C2C14B87D692_TBasePassPSFCachedPointIndirectLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435CEA781543209A66E56FAA33319B50428AB09B65E2_TBasePassVSFCachedPointIndirectLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279D1726533EF0C3E687EA7E3E99D89F6645873B5F6_TBasePassPSFCachedPointIndirectLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C233B673B73AD5C3DA45AB58558A2FEAF1AB5A7AA_FVelocityPSC89A3E8742CC125CAF8FEB3824D895F0E057EC90CC98E6311AC1581B96A09EEE8AE8F6960285B5A2_TBasePassPSFCachedVolumeIndirectLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C80D0A4694439F865D3CC508893BCA55969638F38_TShadowDepthVSVertexShadowDepth_PerspectiveCorrect566268C17842BE32F7F4196A64F1F860A951687BC004ABA017AA57991204B7B624FFD889C3B24A57_TBasePassPSFCachedVolumeIndirectLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C588D69EC55B53A1F6EF1FDFE007D13A68C0DD945_TLightMapDensityPSFNoLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E0E6A1E8C16C0AF9964CF3FEFC1B82F1F3B567770_TLightMapDensityVSTLightMapPolicyLQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E436509D3C31F9011DB1B52E8E02F2100F14082F9_TBasePassVSTLightMapPolicyHQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279CE573C2FA544614368F38DB987E943642455C304_FLandscapePhysicalMaterialVS9BD56FDC1A69F5A3842C3E86AD24E497CDE01F1CDE0D5BCEA7EC56FCFAF6FE24C7902B1E6C1A2354_TBasePassPSFNoLightMapPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C3C0FD33120C8575A512698C01E1EBF84CB90BE73_TBasePassVSFCachedVolumeIndirectLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD627952DA8047FE3873ACFEEB67FCFF3AF5DF1AA7C5C8_TShadowDepthPSPixelShadowDepth_OnePassPointLightF449D5DEDCF833608913E6CD8B760EAB37A055871C20FE0F6421C3566B37C59CBA77F6639400AC09_TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD627960D5E6FFDE96A687BE1C1A2ED9EDE815F8E41839_TShadowDepthVSVertexShadowDepth_VirtualShadowMap566268C17842BE32F7F4196A64F1F860A951687BB4ECC9EA8AA550391078AD8904E08901E177AD2E_TShadowDepthVSVertexShadowDepth_OnePassPointLight566268C17842BE32F7F4196A64F1F860A951687B56E359529EA5F920092BA8DF37812C451EC3EEF6_TBasePassPSTLightMapPolicyLQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C94FC918ED25A4366478C0CE664DD0F431FB434A6_TLightMapDensityPSTLightMapPolicyLQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E0B66239385DAE6F5050046365A9D116D80E52224_TBasePassVSTLightMapPolicyLQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279BFC5C974DD65E6DA17A7D3C21BFBF250BA30283F_TLightMapDensityVSTLightMapPolicyHQC84C3C8B1FA855658F9C0A2A371DDABD1F79452EB0E82574BC7F5C377B8E738E24BDE3D732363B44_FDebugViewModePS56838088095D59EE5193ECF20E85FE62298C7B9EE177622259CDB9DC1140CF61335F5353997EC8B6_TBasePassPSTLightMapPolicyHQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C25C2A51F6B76462E73EA9720145CE5233C11211C_TDepthOnlyVS<false>24730E33B4CBAAD6CC8E99A19D1BC1E6B4CB0B0AACA14F90957AEBF5BC1C2C3E6DB6BC750BA01CCD_FVelocityVSC89A3E8742CC125CAF8FEB3824D895F0E057EC90C043BB9FD7164B6E8DBD4123FD00693BC9B4513E_FDebugViewModeVS3D41E5A6CFCAEA88797E908D01A0A213270F85AA809CB80A6A7260721600DBFAB6C1E0001BD9B8AE_TBasePassVSFNoLightMapPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD62792677AEB94C74F9DCEF44AB17F94D82839B020A23_VelocityPipeline870119D18CF0465BE0070A38FCB3F092A61618D2_DepthNoPixelPipeline24730E33B4CBAAD6CC8E99A19D1BC1E6B4CB0B0A_FLandscapeXYOffsetVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F8B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FLandscapeVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F8B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FLandscapeFixedGridVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F83F5F45F5620EF6411E27211E3D675CEA50B38DFBEBA49461CECB1EA5D21E2BF8918B91C7C3994DCE3F5F45F5620EF6411E27211E3D675CEA50B38DFB3F5F45F5620EF6411E27211E3D675CEA50B38DFB203210141414444414441444141414141444447401010101010131131010204444161512141424044442414141313101434444044444444444444442434141415101010110131313331213333434141423141342044444141413131343041413101015101010100543434343444144444444515151010101131010536161616121000404040404040404040404040404043434343434343444443434343404040404040404343434340404040444442424444444434444442424141214144444442414141434141414141414141413131313131444344444444414141414141414141414141434343444444444444434440444141414144414141414141434141414441414141444441414141414133414424444441414143234141414141314141414241234342414343434143414144414141313131343244414141244141313134444341414121212421213131444212222614114221012121212424444444444041415101510156001444444510110151515151616161616101010101015250101110041010101010101510101010101014314150001010101010101010101010101010101010101160004441404042424313131414401010101010101013101010140121313131416160601012101010101510121014044444404342404442414131500444444444444343410131313321403040404341444341433144334143314331434143414331433143314221414331444144121043141314101510101014644444404446444444444404440141510151015101500010101010101010101010101011000044414040414121010100001010101010101444442420140444444444444444444444444444444444444444444444444444444444444444444444444440431313121213131222222220101010101011010101010404424241414121010101015101510141010151010100040444444515101010004040404040404040404040404040434343434343434444434343434040404040404043434343404040404444424244444444344444424241412141444444424141414341414141414141414131313131314443444444444141414141414141414141414343434444444444444344404441414141444141414141414341414144414141414444414141414141334144244444414141432341414141413141414142412343424143434341434141444141413131313432444141412441413131344443414141212124212131314141010151515151515151515151010101010101010101515151515101510151015101510151010101010101015101616161616151015101510151015101510151013131515151510151010151016461414151010161617161636340431313131313131314422223141414101010101011100000013000000130000001300000013000000130000001300000013000000130000000D000000080000001400000010000000080000000900000008000000230000001000000010000000090000000800000008000000100000001000000010000000100000000800000008000000080000001000000010000000CE00000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000120000001000000008000000080000000800000013000000080000001000000008000000080000000800000008000000080000001300000009000000140000000E00000013000000130000001300000013000000130000001300000008000000100000000900000008000000090000000800000008000000130000000900000008000000090000000800000009000000080000000C00000009000000080000000900000009000000090000000900000009000000080000000800000008000000080000000800000013000000100000001000000010000000130000001000000010000000100000001000000009000000090000000900000010000000100000001000000010000000080000000B00000013000000130000000900000009000000090000001400000008000000090000000D0000000C00000010000000080000000800000028000000100000001000000010000000100000000900000008000000100000001000000010000000100000001000000009000000080000000800000008000000080000000D00000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000C000000080000000C00000013000000100000001000000010000000100000001000000010000000100000000D0000000C00000009000000080000000900000008000000090000000C000000080000001300000026000000110000000900000009000000090000000900000009000000100000001B000000130000001300000013000000130000001300000009000000080000000900000008000000080000000800000014000000140000000800000009000000090000000800000008000000100000000800000008000000290100001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000140000001000000010000000100000001000000009000000433AFC833894B7681A1D3DDBA35F7F5A9509A899000000000000000000000000000000000000000054BDFD528AA46A4E9413E044DCAC9A8F37A07E9D_101_101_4;
+[2024.04.26-01.45.44:920][236]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Menu'.
+[2024.04.26-01.45.44:920][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.44:920][236]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.45.44:951][236]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.26-01.45.44:983][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.26-01.45.44:995][236]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.26-01.45.44:995][236]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2024.04.26-01.45.44:995][236]LogFileHelpers: Loading map 'Main_Menu' took 0.166
+[2024.04.26-01.45.45:014][236]AssetCheck: New page: Asset Save: OptionsPauseMenu
+[2024.04.26-01.45.45:014][236]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
+[2024.04.26-01.45.46:212][359]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.45.46:220][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.45.46:220][359]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:45:46)
+[2024.04.26-01.45.46:257][359]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.45.46:265][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008008s)
+[2024.04.26-01.45.46:265][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008043s)
+[2024.04.26-01.45.46:266][359]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.46:266][359]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.45.46:266][359]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2024.04.26-01.45.46:293][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.26-01.45.46:295][359]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.26-01.45.46:295][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.45.46:295][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.45.46:295][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.45.46:295][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.45.46:295][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.45.46:295][359]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.45.46:295][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.45.46:295][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.45.46:295][359]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.45.46:295][359]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.45.46:295][359]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.45.46:298][359]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.45.46:323][359]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.45.46:323][359]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.45.46:324][359]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.45.46:324][359]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.45.46:324][359]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.26-01.45.46:324][359]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.26-01.45.46:326][359]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.26-01.45.46:326][359]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.26-01.45.46:326][359]LogInit: FAudioDevice initialized.
+[2024.04.26-01.45.46:326][359]LogAudio: Display: Audio Device (ID: 16) registered with world 'Main_Menu'.
+[2024.04.26-01.45.46:329][359]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.45.46:332][359]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.45.46
+[2024.04.26-01.45.46:333][359]LogWorld: Bringing up level for play took: 0.004228
+[2024.04.26-01.45.46:335][359]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2024.04.26-01.45.46:337][359]PIE: Server logged in
+[2024.04.26-01.45.46:337][359]PIE: Play in editor total start time 0.117 seconds.
+[2024.04.26-01.45.46:401][359]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.45.47:988][547]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.45.47:988][547]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.45.47:988][547]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.45.47:989][547]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.45.47:989][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.45.48:052][547]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.45.48:055][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.26-01.45.48:173][547]LogAudio: Display: Audio Device (ID: 16) registered with world 'Main_Area'.
+[2024.04.26-01.45.48:173][547]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.45.48:174][547]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.45.48:174][547]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2024.04.26-01.45.48:174][547]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.45.48:202][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.45.48:202][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.45.48:203][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.45.48:203][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.48:203][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.48:204][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:204][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:204][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:204][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:204][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:204][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:204][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:205][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.45.48:225][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.45.48
+[2024.04.26-01.45.48:225][547]LogWorld: Bringing up level for play took: 0.051190
+[2024.04.26-01.45.48:232][547]LogLoad: Took 0.243993 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.45.48:245][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.45.48:245][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.45.48:247][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.45.48:247][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.48:247][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.45.48:248][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:248][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:249][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:249][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:249][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:249][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:249][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.45.48:250][547]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: ================================================
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Total job queries 795, among them cache hits 247 (31.07%)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Tracking 548 distinct input hashes that result in 386 distinct outputs (70.44%)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: RAM used: 4.09 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.50%
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Shaders Compiled: 6
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100.00%)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Average time worker was idle: 244.10 s
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.08 s
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Job execution time: average 1.22 s, max 1.52 s
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Job life time (pending + execution): average 1.30 s, max 1.59
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.30 s
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Average processing rate: 1.40 jobs/sec
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Total thread time: 3.14 s
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Total thread preprocess time: 0.20 s
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Percentage time preprocessing: 6.20%
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Effective parallelization: 0.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.03% of total time (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.96% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                                 FLumenCardVS - 24.74% of total time (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.27% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.04.26-01.45.48:264][547]LogShaderCompilers: Display: ================================================
+[2024.04.26-01.45.48:757][586]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.45.48:757][586]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.26-01.45.58:851][693]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.26-01.45.58:851][693]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.04.26-01.45.58:852][693]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.45.58:852][693]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.04.26-01.46.01:487][982]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.26-01.46.01:487][982]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.04.26-01.46.02:709][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.46.02:709][110]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.46.02:710][110]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.46.02:713][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.46.02:716][110]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.46.02:723][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.46.02:751][110]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.46.02:751][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.26-01.46.02:752][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.26-01.46.02:756][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.46.02:767][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.04.26-01.46.02:809][111]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.04.26-01.46.05:970][477]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.46.05:971][477]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.46.05:977][477]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.46.06:531][477]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.46.06:531][477]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.47.52:075][198]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-01.47.52:138][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.26-01.47.56:051][640]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-01.47.56:103][640]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.47.56:104][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.47.56:113][640]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.47.56:113][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.47.57:806][835]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.47.57:816][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.47.57:816][835]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:47:57)
+[2024.04.26-01.47.57:816][835]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.47.57:824][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008109s)
+[2024.04.26-01.47.57:824][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008139s)
+[2024.04.26-01.47.57:824][835]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.47.57:824][835]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.47.57:824][835]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2024.04.26-01.47.57:854][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.26-01.47.57:867][835]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.04.26-01.47.57:867][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.47.57:867][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.47.57:867][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.47.57:867][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.47.57:867][835]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.47.57:867][835]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.47.57:867][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.47.57:867][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.47.57:868][835]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.47.57:868][835]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.47.57:868][835]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.47.57:870][835]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.47.57:895][835]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.47.57:896][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.47.57:896][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.47.57:896][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.47.57:896][835]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.04.26-01.47.57:896][835]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.04.26-01.47.57:898][835]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.04.26-01.47.57:898][835]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.04.26-01.47.57:898][835]LogInit: FAudioDevice initialized.
+[2024.04.26-01.47.57:898][835]LogAudio: Display: Audio Device (ID: 17) registered with world 'Main_Menu'.
+[2024.04.26-01.47.57:901][835]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.47.57:905][835]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.47.57
+[2024.04.26-01.47.57:906][835]LogWorld: Bringing up level for play took: 0.004287
+[2024.04.26-01.47.57:908][835]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.04.26-01.47.57:909][835]PIE: Server logged in
+[2024.04.26-01.47.57:910][835]PIE: Play in editor total start time 0.094 seconds.
+[2024.04.26-01.47.57:981][835]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.47.58:458][890]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.47.58:458][890]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.47.58:458][890]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.47.58:459][890]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.47.58:459][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.47.58:520][890]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.47.58:522][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.04.26-01.47.58:639][890]LogAudio: Display: Audio Device (ID: 17) registered with world 'Main_Area'.
+[2024.04.26-01.47.58:640][890]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.47.58:640][890]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.47.58:640][890]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2024.04.26-01.47.58:641][890]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.47.58:669][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.47.58:669][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.47.58:670][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.47.58:670][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.47.58:670][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.47.58:671][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:671][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:671][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:671][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:671][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:671][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:671][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:673][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.47.58:693][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.47.58
+[2024.04.26-01.47.58:694][890]LogWorld: Bringing up level for play took: 0.051867
+[2024.04.26-01.47.58:699][890]LogLoad: Took 0.240860 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.47.58:714][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.47.58:714][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.47.58:715][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.47.58:716][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.47.58:716][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.47.58:717][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:717][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:717][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:717][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:717][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:717][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:717][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.47.58:718][890]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.47.59:586][968]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.47.59:586][968]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.26-01.48.04:327][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.48.04:327][487]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.48.04:365][487]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.48.04:368][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.48.04:371][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.48.04:377][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.48.04:402][487]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.48.04:405][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.26-01.48.04:407][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.26-01.48.04:411][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.48.04:421][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.04.26-01.48.04:465][488]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.04.26-01.48.06:239][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.04.26-01.48.07:043][697]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-01.48.07:050][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-01.48.07:084][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset" SILENT=true
+[2024.04.26-01.48.07:098][697]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/PauseMenu
+[2024.04.26-01.48.07:098][697]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenuF7ACBC33445FE5DF4597BE81FCBA3CB6.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset'
+[2024.04.26-01.48.07:105][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 811 ms)
+[2024.04.26-01.48.07:111][697]AssetCheck: New page: Asset Save: PauseMenu
+[2024.04.26-01.48.07:111][697]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.48.08:035][804]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.48.08:036][804]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.48.08:042][804]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.48.08:597][804]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.48.08:597][804]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.48.42:034][443]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.26-01.48.57:097][835]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-01.48.57:166][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.04.26-01.48.57:875][907]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-01.48.57:893][907]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.48.57:893][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.48.57:901][907]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.48.57:901][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.00:877][252]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.49.00:887][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.49.00:887][252]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:49:00)
+[2024.04.26-01.49.00:922][252]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.49.00:930][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008040s)
+[2024.04.26-01.49.00:930][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008074s)
+[2024.04.26-01.49.00:930][252]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.00:930][252]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.49.00:931][252]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2024.04.26-01.49.00:959][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.26-01.49.00:971][252]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.04.26-01.49.00:971][252]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.49.00:971][252]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.49.00:971][252]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.49.00:971][252]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.49.00:971][252]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.49.00:971][252]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.49.00:971][252]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.49.00:971][252]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.49.00:972][252]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.49.00:972][252]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.49.00:972][252]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.49.00:974][252]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.49.00:999][252]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.49.00:999][252]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.49.00:999][252]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.49.00:999][252]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.49.01:000][252]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.04.26-01.49.01:000][252]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.04.26-01.49.01:001][252]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.04.26-01.49.01:001][252]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.04.26-01.49.01:001][252]LogInit: FAudioDevice initialized.
+[2024.04.26-01.49.01:001][252]LogAudio: Display: Audio Device (ID: 18) registered with world 'Main_Menu'.
+[2024.04.26-01.49.01:004][252]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.49.01:008][252]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.49.01
+[2024.04.26-01.49.01:008][252]LogWorld: Bringing up level for play took: 0.004200
+[2024.04.26-01.49.01:011][252]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.04.26-01.49.01:012][252]PIE: Server logged in
+[2024.04.26-01.49.01:013][252]PIE: Play in editor total start time 0.127 seconds.
+[2024.04.26-01.49.01:083][252]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.49.01:660][319]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.49.01:660][319]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.49.01:660][319]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.49.01:661][319]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.49.01:661][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.01:717][319]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.49.01:719][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.26-01.49.01:839][319]LogAudio: Display: Audio Device (ID: 18) registered with world 'Main_Area'.
+[2024.04.26-01.49.01:839][319]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.01:839][319]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.49.01:840][319]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2024.04.26-01.49.01:840][319]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.49.01:869][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.49.01:869][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.49.01:871][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.49.01:871][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.01:871][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.01:872][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:872][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:872][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:872][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:872][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:872][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:872][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:873][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.49.01:893][319]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.49.01
+[2024.04.26-01.49.01:893][319]LogWorld: Bringing up level for play took: 0.052330
+[2024.04.26-01.49.01:899][319]LogLoad: Took 0.238475 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.49.01:914][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.49.01:914][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.49.01:915][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.49.01:915][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.01:915][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.01:917][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:917][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:917][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:917][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:917][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:917][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:917][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.01:918][319]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: ================================================
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Total job queries 811, among them cache hits 263 (32.43%)
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Tracking 548 distinct input hashes that result in 386 distinct outputs (70.44%)
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: RAM used: 4.09 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.50%
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Shaders Compiled: 6
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100.00%)
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Average time worker was idle: 244.10 s
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.08 s
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Job execution time: average 1.22 s, max 1.52 s
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Job life time (pending + execution): average 1.30 s, max 1.59
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.30 s
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Average processing rate: 1.40 jobs/sec
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Total thread time: 3.14 s
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Total thread preprocess time: 0.20 s
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Percentage time preprocessing: 6.20%
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Effective parallelization: 0.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.04.26-01.49.01:925][319]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.04.26-01.49.01:926][319]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.04.26-01.49.01:926][319]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.03% of total time (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2024.04.26-01.49.01:926][319]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.96% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.04.26-01.49.01:926][319]LogShaderCompilers: Display:                                                 FLumenCardVS - 24.74% of total time (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.04.26-01.49.01:926][319]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.27% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.04.26-01.49.01:926][319]LogShaderCompilers: Display: ================================================
+[2024.04.26-01.49.02:732][391]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.49.02:732][391]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.26-01.49.07:003][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.49.07:003][853]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.49.07:003][853]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.49.07:006][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.07:009][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.49.07:015][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.07:045][853]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.49.07:045][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.26-01.49.07:047][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.26-01.49.07:051][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.49.07:059][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.26-01.49.07:100][854]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.04.26-01.49.07:649][917]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.49.07:650][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.07:658][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.08:207][917]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.49.08:207][917]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.49.17:251][607]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.26-01.49.19:565][821]BlueprintLog: New page: Compile PauseMenu
+[2024.04.26-01.49.19:629][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.26-01.49.20:346][892]LogSlate: Window 'PauseMenu' being destroyed
+[2024.04.26-01.49.20:364][892]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.49.20:364][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.20:373][892]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.49.20:373][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.22:676][144]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.49.22:684][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.49.22:684][144]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:49:22)
+[2024.04.26-01.49.22:684][144]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.49.22:692][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008129s)
+[2024.04.26-01.49.22:692][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008161s)
+[2024.04.26-01.49.22:692][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.22:694][144]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.49.22:694][144]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2024.04.26-01.49.22:724][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.26-01.49.22:740][144]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.04.26-01.49.22:740][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.49.22:740][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.49.22:740][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.49.22:740][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.49.22:740][144]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.49.22:740][144]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.49.22:740][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.49.22:740][144]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.49.22:740][144]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.49.22:740][144]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.49.22:740][144]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.49.22:742][144]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.49.22:769][144]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.49.22:769][144]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.49.22:769][144]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.49.22:769][144]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.49.22:769][144]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.04.26-01.49.22:769][144]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.04.26-01.49.22:771][144]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.04.26-01.49.22:771][144]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.04.26-01.49.22:771][144]LogInit: FAudioDevice initialized.
+[2024.04.26-01.49.22:771][144]LogAudio: Display: Audio Device (ID: 19) registered with world 'Main_Menu'.
+[2024.04.26-01.49.22:774][144]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.49.22:778][144]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.49.22
+[2024.04.26-01.49.22:778][144]LogWorld: Bringing up level for play took: 0.004250
+[2024.04.26-01.49.22:780][144]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.04.26-01.49.22:781][144]PIE: Server logged in
+[2024.04.26-01.49.22:782][144]PIE: Play in editor total start time 0.098 seconds.
+[2024.04.26-01.49.22:852][144]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.49.24:380][325]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.49.24:380][325]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.49.24:380][325]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.49.24:381][325]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.49.24:381][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.24:440][325]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.49.24:443][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.26-01.49.24:560][325]LogAudio: Display: Audio Device (ID: 19) registered with world 'Main_Area'.
+[2024.04.26-01.49.24:560][325]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.24:561][325]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.49.24:561][325]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2024.04.26-01.49.24:561][325]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.49.24:590][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.49.24:590][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.49.24:591][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.49.24:591][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.24:591][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.24:592][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:592][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:592][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:592][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:592][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:592][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:592][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:594][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.49.24:618][325]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.49.24
+[2024.04.26-01.49.24:619][325]LogWorld: Bringing up level for play took: 0.056288
+[2024.04.26-01.49.24:625][325]LogLoad: Took 0.244199 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.49.24:639][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.49.24:639][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.49.24:640][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.49.24:641][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.24:641][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.49.24:642][325]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.49.25:619][415]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.49.25:619][415]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.26-01.49.33:027][229]LogNet: Browse: /Game/UI/Menu_UI/Main_Menu
+[2024.04.26-01.49.33:027][229]LogLoad: LoadMap: /Game/UI/Menu_UI/Main_Menu
+[2024.04.26-01.49.33:027][229]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.49.33:029][229]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.49.33:031][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.33:085][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.49.33:094][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.04.26-01.49.33:097][229]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.49.33:106][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008183s)
+[2024.04.26-01.49.33:106][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008231s)
+[2024.04.26-01.49.33:106][229]LogAudio: Display: Audio Device (ID: 19) registered with world 'Main_Menu'.
+[2024.04.26-01.49.33:106][229]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.33:107][229]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.49.33:107][229]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2024.04.26-01.49.33:107][229]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.49.33:110][229]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.49.33
+[2024.04.26-01.49.33:110][229]LogWorld: Bringing up level for play took: 0.003363
+[2024.04.26-01.49.33:111][229]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.04.26-01.49.33:112][229]LogLoad: Took 0.084415 seconds to LoadMap(/Game/UI/Menu_UI/UEDPIE_0_Main_Menu)
+[2024.04.26-01.49.33:114][229]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.49.33:881][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.49.33:881][316]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.49.33:906][316]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.49.33:906][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.33:909][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.49.33:915][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.49.33:941][316]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.49.33:941][316]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.26-01.49.33:943][316]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.26-01.49.33:946][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.49.33:949][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.26-01.49.33:993][317]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.04.26-01.49.39:842][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.26-01.49.40:754][989]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-01.49.40:761][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-01.49.40:790][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/PauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset" SILENT=true
+[2024.04.26-01.49.40:803][989]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/PauseMenu
+[2024.04.26-01.49.40:803][989]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/PauseMenuCE3C59814E58C2DF309BDB8621496A52.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/PauseMenu.uasset'
+[2024.04.26-01.49.40:811][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 861 ms)
+[2024.04.26-01.49.40:818][989]AssetCheck: New page: Asset Save: PauseMenu
+[2024.04.26-01.49.40:818][989]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/PauseMenu.PauseMenu
+[2024.04.26-01.49.50:771][176]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
+[2024.04.26-01.49.50:771][176]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.50:778][176]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.49.51:337][176]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.49.51:337][176]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.50.08:783][720]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.26-01.50.23:023][930]BlueprintLog: New page: Compile OptionsPauseMenu
+[2024.04.26-01.50.23:099][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.26-01.50.23:760][996]LogSlate: Window 'OptionsPauseMenu' being destroyed
+[2024.04.26-01.50.23:777][996]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.50.23:777][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.50.23:786][996]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.50.23:786][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.50.26:788][345]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.50.26:797][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.50.26:797][345]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:50:26)
+[2024.04.26-01.50.26:823][345]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.50.26:831][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008053s)
+[2024.04.26-01.50.26:831][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008087s)
+[2024.04.26-01.50.26:831][345]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.50.26:831][345]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.50.26:831][345]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2024.04.26-01.50.26:861][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.04.26-01.50.26:873][345]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.04.26-01.50.26:873][345]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.50.26:873][345]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.50.26:873][345]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.50.26:873][345]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.50.26:873][345]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.50.26:873][345]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.50.26:873][345]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.50.26:873][345]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.50.26:873][345]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.50.26:873][345]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.50.26:873][345]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.50.26:875][345]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.50.26:901][345]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.50.26:901][345]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.50.26:901][345]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.50.26:901][345]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.50.26:902][345]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.04.26-01.50.26:902][345]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.04.26-01.50.26:903][345]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.04.26-01.50.26:903][345]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.04.26-01.50.26:903][345]LogInit: FAudioDevice initialized.
+[2024.04.26-01.50.26:903][345]LogAudio: Display: Audio Device (ID: 20) registered with world 'Main_Menu'.
+[2024.04.26-01.50.26:906][345]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.50.26:910][345]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.50.26
+[2024.04.26-01.50.26:911][345]LogWorld: Bringing up level for play took: 0.004260
+[2024.04.26-01.50.26:912][345]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2024.04.26-01.50.26:914][345]PIE: Server logged in
+[2024.04.26-01.50.26:914][345]PIE: Play in editor total start time 0.118 seconds.
+[2024.04.26-01.50.26:986][345]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.50.27:504][405]LogNet: Browse: /Game/Maps/Main_Area
+[2024.04.26-01.50.27:504][405]LogLoad: LoadMap: /Game/Maps/Main_Area
+[2024.04.26-01.50.27:504][405]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.50.27:504][405]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.50.27:505][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.50.27:568][405]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.50.27:571][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.26-01.50.27:688][405]LogAudio: Display: Audio Device (ID: 20) registered with world 'Main_Area'.
+[2024.04.26-01.50.27:689][405]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.50.27:689][405]LogAIModule: Creating AISystem for world Main_Area
+[2024.04.26-01.50.27:689][405]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2024.04.26-01.50.27:689][405]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.26-01.50.27:718][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.50.27:718][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.50.27:719][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.50.27:719][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.50.27:719][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.50.27:720][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:720][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:720][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:720][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:720][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:720][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:720][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:722][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.50.27:741][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Area.Main_Area up for play (max tick rate 0) at 2024.04.26-02.50.27
+[2024.04.26-01.50.27:743][405]LogWorld: Bringing up level for play took: 0.051430
+[2024.04.26-01.50.27:749][405]LogLoad: Took 0.244159 seconds to LoadMap(/Game/Maps/Main_Area)
+[2024.04.26-01.50.27:763][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds1] - forcing default material instead.
+[2024.04.26-01.50.27:763][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant5] - forcing default material instead.
+[2024.04.26-01.50.27:764][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant4] - forcing default material instead.
+[2024.04.26-01.50.27:765][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.50.27:765][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Plant3] - forcing default material instead.
+[2024.04.26-01.50.27:766][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:766][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:766][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:766][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:766][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:766][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:766][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_BgTree4] - forcing default material instead.
+[2024.04.26-01.50.27:767][405]LogStaticMesh: Warning: Invalid material usage for Nanite static mesh [SM_Blinds2] - forcing default material instead.
+[2024.04.26-01.50.28:454][463]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.50.28:454][463]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.26-01.50.34:226][ 87]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.26-01.50.34:226][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.04.26-01.50.34:228][ 87]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.26-01.50.34:228][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.04.26-01.50.36:554][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.50.36:554][329]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Area
+[2024.04.26-01.50.36:555][329]LogWorld: UWorld::CleanupWorld for Main_Area, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.50.36:558][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.50.36:561][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.50.36:568][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.50.36:599][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.50.36:601][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.26-01.50.36:604][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.26-01.50.36:616][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.04.26-01.50.36:651][330]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2024.04.26-01.50.40:894][830]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.50.40:894][830]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.50.40:902][830]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.50.41:466][830]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.50.41:466][830]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.51.48:462][820]BlueprintLog: New page: Compile OptionsMainMenu
+[2024.04.26-01.51.48:536][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.26-01.51.49:399][903]LogSlate: Window 'OptionsMainMenu' being destroyed
+[2024.04.26-01.51.49:420][903]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.51.49:420][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.51.49:430][903]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.51.49:430][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.51.50:962][ 72]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.51.50:970][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.51.50:970][ 72]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:51:50)
+[2024.04.26-01.51.50:970][ 72]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.51.50:978][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008041s)
+[2024.04.26-01.51.50:978][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008071s)
+[2024.04.26-01.51.50:978][ 72]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.51.50:979][ 72]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.51.50:979][ 72]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2024.04.26-01.51.51:009][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.26-01.51.51:018][ 72]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.04.26-01.51.51:018][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.51.51:018][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.51.51:018][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.51.51:018][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.51.51:018][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.51.51:018][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.51.51:018][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.51.51:018][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.51.51:018][ 72]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.51.51:019][ 72]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.51.51:019][ 72]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.51.51:020][ 72]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.51.51:046][ 72]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.51.51:046][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.51.51:046][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.51.51:046][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.51.51:046][ 72]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.04.26-01.51.51:046][ 72]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.04.26-01.51.51:049][ 72]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.04.26-01.51.51:049][ 72]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.04.26-01.51.51:049][ 72]LogInit: FAudioDevice initialized.
+[2024.04.26-01.51.51:049][ 72]LogAudio: Display: Audio Device (ID: 21) registered with world 'Main_Menu'.
+[2024.04.26-01.51.51:052][ 72]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.51.51:056][ 72]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.51.51
+[2024.04.26-01.51.51:056][ 72]LogWorld: Bringing up level for play took: 0.004282
+[2024.04.26-01.51.51:058][ 72]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.04.26-01.51.51:060][ 72]PIE: Server logged in
+[2024.04.26-01.51.51:060][ 72]PIE: Play in editor total start time 0.09 seconds.
+[2024.04.26-01.51.51:136][ 72]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.51.56:064][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.51.56:064][656]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.51.56:064][656]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.51.56:064][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.51.56:067][656]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.51.56:072][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.51.56:097][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.51.56:098][656]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.04.26-01.51.56:099][656]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.04.26-01.51.56:107][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.04.26-01.51.56:139][657]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.04.26-01.51.57:163][776]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.51.57:165][776]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.51.57:172][776]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.51.57:738][776]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.51.57:738][776]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.52.28:856][989]BlueprintLog: New page: Compile OptionsMainMenu
+[2024.04.26-01.52.28:931][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.26-01.52.29:615][ 52]LogSlate: Window 'OptionsMainMenu' being destroyed
+[2024.04.26-01.52.29:637][ 52]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.52.29:637][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.52.29:645][ 52]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.52.29:645][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.52.30:943][194]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.26-01.52.30:952][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.26-01.52.30:953][194]PIE: New page: PIE session: Main_Menu (26 Apr 2024, 03:52:30)
+[2024.04.26-01.52.30:953][194]LogPlayLevel: Creating play world package: /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.52.30:961][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008028s)
+[2024.04.26-01.52.30:961][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI/Menu_UI/Main_Menu.Main_Menu to /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu (0.008059s)
+[2024.04.26-01.52.30:961][194]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.52.30:961][194]LogAIModule: Creating AISystem for world Main_Menu
+[2024.04.26-01.52.30:962][194]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2024.04.26-01.52.30:990][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.26-01.52.30:998][194]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.04.26-01.52.30:998][194]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.26-01.52.30:998][194]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.26-01.52.30:998][194]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.26-01.52.30:998][194]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.26-01.52.30:998][194]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.26-01.52.30:998][194]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.26-01.52.30:998][194]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.26-01.52.30:998][194]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.26-01.52.30:998][194]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.26-01.52.30:998][194]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.26-01.52.30:999][194]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.26-01.52.31:001][194]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.26-01.52.31:027][194]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.04.26-01.52.31:027][194]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.26-01.52.31:027][194]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.26-01.52.31:027][194]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.26-01.52.31:028][194]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.04.26-01.52.31:028][194]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.04.26-01.52.31:030][194]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.04.26-01.52.31:030][194]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.04.26-01.52.31:030][194]LogInit: FAudioDevice initialized.
+[2024.04.26-01.52.31:030][194]LogAudio: Display: Audio Device (ID: 22) registered with world 'Main_Menu'.
+[2024.04.26-01.52.31:032][194]LogLoad: Game class is 'MenuGameMode_C'
+[2024.04.26-01.52.31:037][194]LogWorld: Bringing World /Game/UI/Menu_UI/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2024.04.26-02.52.31
+[2024.04.26-01.52.31:037][194]LogWorld: Bringing up level for play took: 0.004270
+[2024.04.26-01.52.31:039][194]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2024.04.26-01.52.31:040][194]PIE: Server logged in
+[2024.04.26-01.52.31:041][194]PIE: Play in editor total start time 0.089 seconds.
+[2024.04.26-01.52.31:112][194]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Main_Theme_-_02'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.26-01.52.42:190][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.52.42:190][463]LogWorld: BeginTearingDown for /Game/UI/Menu_UI/UEDPIE_0_Main_Menu
+[2024.04.26-01.52.42:190][463]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.52.42:191][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.52.42:193][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.26-01.52.42:199][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.52.42:225][463]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.26-01.52.42:225][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.04.26-01.52.42:227][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.04.26-01.52.42:231][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.26-01.52.42:234][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.26-01.52.42:293][464]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2024.04.26-01.52.44:916][766]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
+[2024.04.26-01.52.44:917][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.52.44:924][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.52.45:483][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.52.45:483][766]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.53.00:329][786]BlueprintLog: New page: Compile OptionsPauseMenu
+[2024.04.26-01.53.00:401][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.04.26-01.53.06:171][277]LogSlate: Window 'OptionsPauseMenu' being destroyed
+[2024.04.26-01.53.06:189][277]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.53.06:189][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.53.06:198][277]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.53.06:198][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.53.06:969][351]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.53.06:969][351]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.53.06:977][351]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.26-01.53.07:530][351]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.53.07:530][351]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.04.26-01.53.10:683][561]LogSlate: Window 'OptionsMainMenu' being destroyed
+[2024.04.26-01.53.10:704][561]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.53.10:704][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.53.10:714][561]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2024.04.26-01.53.10:714][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.26-01.53.12:364][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.04.26-01.53.13:199][741]LogSlate: Window 'Save Content' being destroyed
+[2024.04.26-01.53.13:207][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.26-01.53.13:239][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsMainMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMainMenu.uasset" SILENT=true
+[2024.04.26-01.53.13:289][741]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsMainMenu
+[2024.04.26-01.53.13:289][741]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsMainMenuB1007ECE42F6219A2AB802AC6B105D13.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsMainMenu.uasset'
+[2024.04.26-01.53.13:293][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu_UI/OptionsPauseMenu" FILE="D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset" SILENT=true
+[2024.04.26-01.53.13:341][741]LogSavePackage: Moving output files for package: /Game/UI/Menu_UI/OptionsPauseMenu
+[2024.04.26-01.53.13:341][741]LogSavePackage: Moving 'D:/University Projects/MascotHorror/Game/MascotHorror/Saved/OptionsPauseMenu4AF4DF2D4B6C435988AFA79525CBE197.tmp' to 'D:/University Projects/MascotHorror/Game/MascotHorror/Content/UI/Menu_UI/OptionsPauseMenu.uasset'
+[2024.04.26-01.53.13:348][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 1.00 sec)
+[2024.04.26-01.53.13:356][741]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.26-01.53.13:356][741]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsMainMenu.OptionsMainMenu
+[2024.04.26-01.53.13:357][741]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu_UI/OptionsPauseMenu.OptionsPauseMenu
